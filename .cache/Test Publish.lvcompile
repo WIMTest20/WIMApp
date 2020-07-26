@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>51543d6a-0307-45d6-be9c-4b1da17458b6</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>51543d6a-0307-45d6-be9c-4b1da17458b6</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-07-26T00:47:09.8508013Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
+    <HintEnvoy>::Web Server::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+</JobList>
