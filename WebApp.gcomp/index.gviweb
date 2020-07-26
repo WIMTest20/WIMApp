@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="9656F9F4AD8A359F8C87143697D9A7927641F3700744657608D18C2EAF17C7D61A617E38F7AA78E92F01E39B81EBB679C96590E0E910EC934CC8448E87EE200F" Timestamp="1D6048A2AACFCB0" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="14B317858C4E10CF8ADC593DF103474C3FCD1A69B3FE8AE654826A7245108A0416961864A71F06BE0017A7C8B57F1C89FC53A83391633470A3D04FD1A382E23F" Timestamp="1D662E63D06F948" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ApplicationVersionInfo Build="8.1.0.49573" Name="LabVIEW NXG" Version="5.0.0" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<VirtualInstrument CustomTitle="Call 3rd Party Web Service" Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
-			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
-					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-					<FileNameText Attached="[bool]True" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]index" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
-						<FontSetting FontFamily="Verdana" FontSize="9.75" Id="8" />
-					</FileNameText>
-				</IconTemplate>
+			<IconPanel Height="[float]40" Id="37" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<Canvas Id="38" Left="[float]0" Top="[float]0">
+					<Path Data="[PathGeometry]M 39,36 C 39,37.6500015 37.6500015,39 36,39 L 4,39 C 2.3499999,39 1,37.6500015 1,36 L 1,4 C 1,2.3499999 2.3499999,1 4,1 L 36,1 C 37.6500015,1 39,2.3499999 39,4 L 39,36 Z" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Id="39" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 36,1 C 37.6539993,1 39,2.34599996 39,4 L 39,36 C 39,37.6539993 37.6539993,39 36,39 L 4,39 C 2.34599996,39 1,37.6539993 1,36 L 1,4 C 1,2.34599996 2.34599996,1 4,1 L 36,1 M 36,0 L 4,0 C 1.79999995,0 0,1.79999995 0,4 L 0,36 C 0,38.2000008 1.79999995,40 4,40 L 36,40 C 38.2000008,40 40,38.2000008 40,36 L 40,4 C 40,1.79999995 38.2000008,0 36,0 L 36,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 38,36 C 38,37.0999985 37.0999985,38 36,38 L 4,38 C 2.9000001,38 2,37.0999985 2,36 L 2,4 C 2,2.9000001 2.9000001,2 4,2 L 36,2 C 37.0999985,2 38,2.9000001 38,4 L 38,36 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Id="41" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 30.1270008,18.5489998 C 31.2910004,19.2229996 31.2910004,20.3260002 30.1270008,21 L 11.1169996,31.7119999 C 9.95300007,32.3860016 9,31.8369999 9,30.4909992 L 9,9.50899982 C 9,8.16399956 9.95300007,7.61399984 11.1169996,8.28800011 L 30.1270008,18.5489998 Z M 21,19 L 17,19 L 17,15 L 15,15 L 15,19 L 11,19 L 11,21 L 15,21 L 15,25 L 17,25 L 17,21 L 21,21 L 21,19 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="42" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+					<Path Data="[PathGeometry]M 38,10 L 38,19 L 35.9080009,19 C 35.7010002,18.4190006 35.1520004,18 34.5,18 C 33.6720009,18 33,18.6720009 33,19.5 C 33,20.3279991 33.6720009,21 34.5,21 C 35.1520004,21 35.7019997,20.5809994 35.9080009,20 L 38,20 L 38,30 L 16.1919994,30 L 30.618,21.8710003 C 31.5,21.3610001 32,20.5979996 32,19.7740002 C 32,18.9500008 31.5,18.1879997 30.6280003,17.6830006 L 16.3929996,10 L 38,10 Z M 2,10 L 2,14 L 4.09200001,14 C 4.29899979,13.4189997 4.84800005,13 5.5,13 C 6.32800007,13 7,13.6719999 7,14.5 C 7,15.3280001 6.32800007,16 5.5,16 C 4.84800005,16 4.29799986,15.5810003 4.09200001,15 L 2,15 L 2,25 L 4.09200001,25 C 4.29899979,24.4190006 4.84800005,24 5.5,24 C 6.32800007,24 7,24.6720009 7,25.5 C 7,26.3279991 6.32800007,27 5.5,27 C 4.84800005,27 4.29799986,26.5809994 4.09200001,26 L 2,26 L 2,30 L 8,30 L 8,10 L 2,10 Z" Fill="[SMSolidColorBrush]#ff62839d" Height="[float]40" Id="43" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
+				</Canvas>
 			</IconPanel>
 		</Icon>
 		<ConnectorPane Height="40" Id="9" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
@@ -35,408 +35,254 @@
 			<ConnectorPaneTerminal Hotspot="15 40" />
 			<ConnectorPaneTerminal Hotspot="25 40" />
 		</ConnectorPane>
-		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon">
-			<DataAccessor Bounds="595 405 40 15" DataItem="989" Id="990" Label="993">
-				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="990" Bounds="640 405 24 14" Id="993" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>logo</p.Text>
-			</NodeLabel>
-			<DataAccessor Bounds="660 260 40 15" DataItem="1301" Id="1302" Label="1305">
-				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="1302" Bounds="625 260 30 15" Id="1305" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>Hyperlink Control</p.Text>
-			</NodeLabel>
-			<DataAccessor Bounds="0 0 40 15" DataItem="da754a42c7f44b3b9d893738a3aa60a8" Id="faa787af58ec44b9baf80abe528e3e18" Label="b01b1fbecb6a45e28e071f5679f4a51c">
-				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="faa787af58ec44b9baf80abe528e3e18" Bounds="45 0 30 15" Id="b01b1fbecb6a45e28e071f5679f4a51c" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>banner</p.Text>
-			</NodeLabel>
-		</DiagramUnplacedItems>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="12">
-			<DataAccessor Bounds="925 255 40 15" DataItem="968" Id="969" Label="974" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@7f6ff7470c374950ba0aa8ca857dd723" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="969" Bounds="970 255 69 14" Id="974" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>Earthquakes</p.Text>
-			</NodeLabel>
-			<MethodCall Bounds="525 240 40 40" Id="998" ResolveFailedHint="&quot;c:\\p4\\penguin\\lvdist\\branches\\ng\\content\\web\\examples\\trunk\\8.1\\objects\\content\\lv_r\\Call3rdPartyWebService\\WebApp.gcomp\\support\\Get Recent Earthquakes.gviweb&quot;" Signature="@3331907d675e4eafb8c1d9f5ee4ae989" Target="WebApp::support::Get Recent Earthquakes.gviweb" xmlns="http://www.ni.com/MocCommon">
-				<p.MethodDeclaration>
-					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
-						<Parameter Id="L3" Desc="error in" />
-						<Parameter Id="R0" Desc="Earthquakes" />
-						<Parameter Id="R3" Desc="error out" />
-					</MethodDeclaration>
-				</p.MethodDeclaration>
-				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@c5b81ec0596944eaa865bbc32b72f3aa" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
-			</MethodCall>
-			<Wire Id="1025" Joints="N(998:R0)|(565,245) N(1118:o0)|(583,245)" xmlns="http://www.ni.com/PlatformFramework" />
-			<ForLoop Bounds="588 83 318 320" DiagramId="1027" Id="1026">
-				<LoopIteration Bounds="0 290 15 15" Id="1029" />
-				<PropertyNode Bounds="45 155 93 110" HasErrorTerminals="False" Id="1023" InstanceDataType="@53b00ffe7cc04677955658e4f2b4dd7b" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
-					<PropertyItemTerminal DataType="String" Hotspot="93 15" Id="c0t0v" Path="map url" PathElementMemberKinds="Field" Usage="Optional" />
-					<PropertyItemTerminal DataType="String" Hotspot="93 30" Id="c1t0v" Path="location" PathElementMemberKinds="Field" Usage="Optional" />
-					<PropertyItemTerminal DataType="Double" Hotspot="93 45" Id="c2t0v" Path="magnitude" PathElementMemberKinds="Field" Usage="Optional" />
-					<PropertyItemTerminal DataType="Double" Hotspot="93 60" Id="c3t0v" Path="latitude" PathElementMemberKinds="Field" Usage="Optional" />
-					<PropertyItemTerminal DataType="Double" Hotspot="93 75" Id="c4t0v" Path="longitude" PathElementMemberKinds="Field" Usage="Optional" />
-					<PropertyItemTerminal DataType="Double" Hotspot="93 90" Id="c5t0v" Path="depth" PathElementMemberKinds="Field" Usage="Optional" />
-				</PropertyNode>
-				<Wire Id="1117" Joints="N(1118:i0)|(6,160) N(1023:instance in)|(45,160)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1120" Joints="N(1023:c0t0v)|(138,170) h(5) v(-100) N(1121:i0)|(306,70)" xmlns="http://www.ni.com/PlatformFramework" />
-				<PropertyNode Bounds="160 170 99 95" HasErrorTerminals="False" Id="1168" InstanceDataType="@91fe1d8c96204ff2bc17369477179d74" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
-					<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 15" Id="c0t0v" Path="Location" PathElementMemberKinds="Field" Usage="Required" />
-					<PropertyItemTerminal Action="Write" DataType="Double" Hotspot="0 30" Id="c1t0v" Path="Magnitude" PathElementMemberKinds="Field" Usage="Required" />
-					<PropertyItemTerminal Action="Write" DataType="Double" Hotspot="0 45" Id="c2t0v" Path="Latitude" PathElementMemberKinds="Field" Usage="Required" />
-					<PropertyItemTerminal Action="Write" DataType="Double" Hotspot="0 60" Id="c3t0v" Path="Longitude" PathElementMemberKinds="Field" Usage="Required" />
-					<PropertyItemTerminal Action="Write" DataType="Double" Hotspot="0 75" Id="c4t0v" Path="Depth" PathElementMemberKinds="Field" Usage="Required" />
-				</PropertyNode>
-				<Wire Id="1169" Joints="N(1156:Out)|(106,35) h(44) v(140) N(1168:instance in)|(160,175)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1170" Joints="N(1023:c1t0v)|(138,185) N(1168:c0t0v)|(160,185)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1171" Joints="N(1023:c2t0v)|(138,200) N(1168:c1t0v)|(160,200)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1172" Joints="N(1023:c3t0v)|(138,215) N(1168:c2t0v)|(160,215)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1173" Joints="N(1023:c4t0v)|(138,230) N(1168:c3t0v)|(160,230)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1174" Joints="N(1023:c5t0v)|(138,245) N(1168:c4t0v)|(160,245)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1175" Joints="N(1168:instance out)|(259,175) N(1176:i0)|(306,175)" xmlns="http://www.ni.com/PlatformFramework" />
-				<ClusterLiteral Bounds="45 30 61 105" DataType="@91fe1d8c96204ff2bc17369477179d74" Id="1156" Label="1167" xmlns="http://www.ni.com/MocCommon">
-					<p.Data>
-						<Cluster>
-							<Field1>""</Field1>
-							<Field2>0x0</Field2>
-							<Field3>0x0</Field3>
-							<Field4>0x0</Field4>
-							<Field5>0x0</Field5>
-						</Cluster>
-					</p.Data>
-					<ClusterBehavior AutoArrange="SizeToFit" />
-					<Literal Bounds="2 2 40 15" DataType="String" Id="1157" Label="1158">
-						<p.Data>""</p.Data>
-						<StringBehavior TextDisplayMode="Default" />
-					</Literal>
-					<NodeLabel AttachedTo="1157" Bounds="2 -16 50 15" Id="1158" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>Location</p.Text>
-					</NodeLabel>
-					<Literal Bounds="2 21 40 15" DataType="Double" Id="1159" Label="1160">
-						<p.Data>0x0</p.Data>
-						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-					</Literal>
-					<NodeLabel AttachedTo="1159" Bounds="2 3 60 15" Id="1160" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>Magnitude</p.Text>
-					</NodeLabel>
-					<Literal Bounds="2 40 40 15" DataType="Double" Id="1161" Label="1162">
-						<p.Data>0x0</p.Data>
-						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-					</Literal>
-					<NodeLabel AttachedTo="1161" Bounds="2 22 45 15" Id="1162" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>Latitude</p.Text>
-					</NodeLabel>
-					<Literal Bounds="2 59 40 15" DataType="Double" Id="1163" Label="1164">
-						<p.Data>0x0</p.Data>
-						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-					</Literal>
-					<NodeLabel AttachedTo="1163" Bounds="2 41 55 15" Id="1164" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>Longitude</p.Text>
-					</NodeLabel>
-					<Literal Bounds="2 78 40 15" DataType="Double" Id="1165" Label="1166">
-						<p.Data>0x0</p.Data>
-						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-					</Literal>
-					<NodeLabel AttachedTo="1165" Bounds="2 60 35 15" Id="1166" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>Depth</p.Text>
-					</NodeLabel>
-				</ClusterLiteral>
-				<NodeLabel AttachedTo="1156" Bounds="45 138 30 15" Id="1167" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>Cluster Constant</p.Text>
-				</NodeLabel>
-				<Comment Bounds="30 280 265 15" Id="2006" xmlns="http://www.ni.com/MocCommon">
-					<p.Text>Unflatten the JSON return from Web Service</p.Text>
-				</Comment>
-				<LoopCount Bounds="1 1 15 15" Docking="Left" Id="1028" Terminals="1026, 1027" />
-				<LoopTunnel AutoIndex="True" Bounds="-5 157 13 10" Docking="Left" Id="1118" Terminals="o0=1025, i0=1117" TunnelMode="0" />
-				<LoopTunnel AutoIndex="True" Bounds="308 67 13 10" Docking="Right" Id="1121" Terminals="o0=1123, i0=1120" TunnelMode="0" />
-				<LoopTunnel AutoIndex="True" Bounds="308 172 13 10" Docking="Right" Id="1176" Terminals="o0=1178, i0=1175" TunnelMode="0" />
-			</ForLoop>
-			<Wire Id="1123" Joints="N(1121:o0)|(909,155) N(1277:o0)|(916,155)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="1178" Joints="N(1176:o0)|(909,260) N(969:Value)|(928,260)" xmlns="http://www.ni.com/PlatformFramework" />
-			<WhileLoop Bounds="920 -10 485 250" DiagramId="1180" Id="1179">
-				<LoopIteration Bounds="5 220 15 15" Id="1181" />
-				<LoopCondition Bounds="460 215 15 15" Id="1182" />
-				<Wire Id="1276" Joints="N(1277:i0)|(4,160) h(46) v(-120) N(1122:array)|(70,40)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Literal Bounds="420 215 25 15" DataType="Boolean" Id="1290" Label="1291" xmlns="http://www.ni.com/MocCommon">
-					<p.Data>False</p.Data>
-					<BooleanBehavior />
+			<WhileLoop Bounds="285 110 541 355" DiagramId="17" Id="16">
+				<LoopIteration Bounds="5 325 15 15" Id="18" />
+				<LoopCondition Bounds="475 320 15 15" Id="19" />
+				<Wire Id="22" Joints="N(7339b31cbff041fdbdfcf52235ff5093:Value)|(395,315) h(60) v(10) N(19:Input)|(475,325)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wait Bounds="450 265 40 40" Id="23" />
+				<Literal Bounds="400 280 40 15" DataType="UInt32" Id="24" Label="25" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>500</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 				</Literal>
-				<NodeLabel AttachedTo="1290" Bounds="420 197 30 15" Id="1291" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>stop</p.Text>
+				<NodeLabel AttachedTo="24" Bounds="365 280 30 15" Id="25" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>milliseconds to wait</p.Text>
 				</NodeLabel>
-				<Wire Id="1292" Joints="N(1290:Out)|(445,220) N(1182:Input)|(460,220)" xmlns="http://www.ni.com/PlatformFramework" />
-				<EventStructure Bounds="114 72 288 146" Id="1308" Selected="1309" UserSelectorBounds="20 0 248 17">
-					<EventStructure.EventCase Bounds="21 18 246 120" Id="1309">
-						<EventStructure.EventData Bounds="0 12 92 50" HasErrorTerminals="False" Id="1310" InstanceDataType="@3a707364bf6c4107a721b6e50de3af42" Mode="InstanceProperties" PropertyPathsInSemanticOrder="Time,Index,Control Reference,Old Value,New Value">
-							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-								<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
-							</p.TypeDefinitionTargets>
-							<EventPropertyItemTerminal DataType="Int32" Hotspot="92 15" Id="c0t0v" Path="Old Value" PathElementMemberKinds="Field" Usage="Optional" />
-							<EventPropertyItemTerminal DataType="Int32" Hotspot="92 30" Id="c1t0v" Path="New Value" PathElementMemberKinds="Field" Usage="Optional" />
-						</EventStructure.EventData>
-						<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventSourceType="Content" EventType="@d626da836d364b47915f654e51af57c5" SourceContent="1125" SourceName="Map" />
-						<DataAccessor Bounds="190 75 40 15" DataItem="1124" Id="1446" Label="1447" xmlns="http://www.ni.com/MocCommon">
-							<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-						</DataAccessor>
-						<NodeLabel AttachedTo="1446" Bounds="162 75 23 14" Id="1447" xmlns="http://www.ni.com/PlatformFramework">
-							<p.Text>Map</p.Text>
-						</NodeLabel>
-						<Wire Id="2002" Joints="N(1446:Value)|(230,80) N(2003:1309)|(244,80)" xmlns="http://www.ni.com/PlatformFramework" />
-					</EventStructure.EventCase>
-					<EventStructure.Tunnel Bounds="265 93 25 10" Docking="Right" Id="2003" Terminals="1308=2004, 1309=2002" />
-				</EventStructure>
-				<ArrayIndex Bounds="70 35 40 30" Id="1122" Terminals="array=1276, c0t0v=1437, c0out=1440" />
-				<Wire Id="1437" Joints="N(2001:i0)|(4,60) N(1122:c0t0v)|(70,60)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="1440" Joints="N(1122:c0out)|(110,60) N(1131:Value)|(213,60)" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="210 55 40 15" DataItem="1130" Id="1131" Label="1134" xmlns="http://www.ni.com/MocCommon">
-					<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="26" Joints="N(24:Out)|(440,285) N(23:time to wait)|(450,285)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="355 310 40 15" DataItem="df1b728cbe4a437796c00346cfe5c186" Id="7339b31cbff041fdbdfcf52235ff5093" Label="d19914321d32405689ba26ff5df47755" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="1131" Bounds="255 55 81 14" Id="1134" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>map url image</p.Text>
+				<NodeLabel AttachedTo="7339b31cbff041fdbdfcf52235ff5093" Bounds="324 310 26 14" Id="d19914321d32405689ba26ff5df47755" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Stop</p.Text>
 				</NodeLabel>
-				<Wire Id="2004" Joints="N(2003:1308)|(404,170) h(39) v(-110) N(2000:1180)|(471,60)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Comment Bounds="95 10 320 15" Id="1307" xmlns="http://www.ni.com/MocCommon">
-					<p.Text>Show the earthquake map based on the map url index</p.Text>
-				</Comment>
-				<LoopTunnel Bounds="-4 160 13 10" Docking="Left" Id="1277" Terminals="o0=1123, i0=1276" />
-				<RightShiftRegister Bounds="476 60 13 10" Docking="Right" Id="2000" Terminals="1179, 1180=2004" />
-				<LeftShiftRegister Bounds="-4 60 13 10" Docking="Left" Id="2001" RightRegister="2000" Terminals="o0=1997, i0=1437" />
+				<DataAccessor Bounds="34 155 40 15" DataItem="333e271d56954b698cf016d9c75ea8ea" Id="f6bb0d41fc0c4d6d823713a5bbb80f4a" Label="5a0073e2f1834861b8e59fcd7d5c0bfd" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="String[,]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="f6bb0d41fc0c4d6d823713a5bbb80f4a" Bounds="79 155 49 14" Id="5a0073e2f1834861b8e59fcd7d5c0bfd" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>DB Table</p.Text>
+				</NodeLabel>
+				<Wire Id="e9ac7cf510fa402786d73ddaab5347e7" Joints="N(c9f32956ac054e7d926749ce8656ce75:i0)|(4,160) N(f6bb0d41fc0c4d6d823713a5bbb80f4a:Value)|(37,160)" xmlns="http://www.ni.com/PlatformFramework" />
+				<LoopTunnel Bounds="-4 160 13 10" Docking="Left" Id="c9f32956ac054e7d926749ce8656ce75" Terminals="o0=6dc93ada4a364ebc8aeb328e497f4f33, i0=e9ac7cf510fa402786d73ddaab5347e7" />
 			</WhileLoop>
-			<DataAccessor Bounds="870 50 40 15" DataItem="1124" Id="1127" Label="1128" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="1127" Bounds="842 50 23 14" Id="1128" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>Map</p.Text>
+			<Comment Bounds="295 480 520 42" Id="28" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Top-Level WebVIs usually contain a While Loop that never stops so that they can continue running as long as the web page is open in the user's web browser.</p.Text>
+			</Comment>
+			<Comment Bounds="1045 220 170 90" Id="29" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Place setup code before the loop. For example, perform initial data communication and wire the results into the loop.</p.Text>
+			</Comment>
+			<ArrayLiteral Bounds="136 270 94 51" DataType="String[,]" Id="e656668c32fc42f1aa11a5facf1bb74e" Label="15cfe710c69c4d9ea1b47c345cb4e375" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Array Lengths="179,12" IsBinary="True" Compression="GZip">
+						<BinaryElements>H4sIAAAAAAAEACVPTYvCQAxt/YhrdWEP/oCc9tTS6VR3RU9jt4hrW4sFr1LWYSnoDNRS/feawQfJewnJI7Fsy7IeBMMGH0aMKaBDaVgkq2AujsUaulR2488N9Eg4212SpLv9Os6gb7ZyxkL27WUrkXmMAEBdm8OA6LeQdavxp65a6WKur1VTaYUbdZJ3WS9xOmd4EJGLIQoXb77G+N5IdaUhF4Uqz/ofI325lOoEb+TXiaYwNBeKv4YswSE9+fJ54HPGGc4WM74IQsxTGJmPYPw65Z1okNdlK6UaPQENejt++AAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOXQuCQBD0o9Ysix76AfcQvvoRRvhml0SYIAm9htmVghqcWv372qOF2ZldZpmVZEmSvliCRc2FMBCgYNNjGjmb5JLuQcVRDc0DDFDMtseARsQku5BG4QmG4vLWt90VwTi5V+xTAuBWdkBDWtInv1Wsbck5y/u+JrRiWYPOd9kVhBYZfzAOI3Qq1ANd5Ad5V74YjFEv1pbrWK7t2sTzPdd3ViSJYSL+BeMfMkXS0oLxOmsmP7iJ7ybWAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnL7O3oYWAfHB7mzMQC6zq5onGwuQwermGhziz8YKZHIFhPrpmkUY6rr7sbEB+UxGBmzsQFrdLDdXISAvtTQ3sSQzWSGkNClVQcO9KDU1T1NHwdQgV6EgtUghKb+CjQOkydmUjRNkqWNySWZZKhsXkC1ipm9kqG9kYGSgYGplamRlaKwQ4MvGDXIkGw/UIl4gzR6ckVqUm5jHDQDwygoszAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnL7O3oYWAfHB7mzMQC6zq5onGwuQwermGhziz8YKZHIHhPrpGhpFGOm6+7GxAQUYzdnYgZSGoVFurkJAXmppbmJJZrJCSGlSqoKGe1Fqap6mjoKpQa5CQWqRQlJ+BRsHUDWTsykbJ8hWx+SSzLJUNi4gW8RM38hQ38jAyEDB1MrUyMrQWCHAl40b5Eo2HohFvECKPTgjtSg3MY8bANkUTb7MAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAC1OywrCQAysr9T6AA9+QE6erLZbV6V60bo+0EJBFDzJUgsWbBWtj7/XLDgwmZkcktFymqZ9CUoVGsrUiJCnYfje2h4Gx+0CChQLorWCotovxWa3nkzFBkoUSz2H8wEA2Ty3QCcdi9neDGJ/bnqHNjr4QUa0OgOOScJGGAgzTh/Pi8yiUxsv1zeG8ibDOJNpGEFZXfI4GKrIJMziVwQV8s1+l9ldZjELucuZazsY+FBVxaH2/14n1bfn6J7ItPoDKOwc9+AAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnL7O3oYWAfHB7mzMQC6zq5onGwuQweLjGBDAxgpksRoZmhhYsrEBmUymBmzsQFra2dHJx1Uh1M8zJEjBKTRYIcBJwTDCKMJAz8yEjQOk0NmUjRNkhWNySWZZKhsXkC1ipm9kqG9kYGSgYGplamRlaKwQ4MvGDXISGw/UcF4gzR6ckVqUm5jHDQAZ1UgKugAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWPX0vDMBTFu02v7o/gg77fD2Bplm5V9pZuQ8qwFCbDNyk1LMEuGWmcfnu9mReS87u5F05O1Iui6JcqaKjbABM60KdrmIs3zsT79hkG1A6qfAcXBKONbduDdXtp4JL6e7FZxVXMWMYe4zJfF4SMAdCol8IViaIN3Ep3srhy+iQfMBPYWOOx+XJOkvIZS2ZPDHdiielR4dor6Urpk6JCe/TaGqxsp89QmA/5Ix1+a6/wYM9vvu4+tdnDNbn1lykMQwjReDKDEfFdlvBpwhlnOF/M+WKaYvUC4xAaJv8fvQnZS90o29YdvtZm/Aeae4VWIAEAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOwQqCQBDVrDFToUO3LvsDoq6o4G31YIK50kp4CzEhQQwqgr6+ZunBzHtvGGaeoiqK8kVIlthKYWHBApuRspZ67CJy0NBqdXqGJQqbTdMwO+mju07DB1Y40v04jBwWA6BRfdCR9hmvmhMvS54XLckOTIhCkJiIkjewxoVFFoAhn7H+Nb4H2KDeRS71XepRj4RJSBM/IPURTBkOrP9tW2asxv52n7onabrZ/AEsbV/WyAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnE6OEUYGjvHB7mzMQC5zgFMYGwuQweuYk5Oap+tUlJiSk1rJxgoU4jA0NzXT9TE3YmMD8hgN2diBlIxzfl5JUX6OT356ZoWCiYKvkwJUJCe1iI0DqILJ2ZiNE2SdY3JJZlkqGxeQLWKmb2Sob2RgZKBgamVqZGVorBDgy8YNch4bD8RwXpAr/TKTM/JzEosVQhLzuAE+rSFzygAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVP26rCQAyst3gHH/yAPCpYbFe2R3zbVimFtrvYrZenQ/EUFIoHVAS/XrMYSGZChjBj1SzLelMZNDUyZEANdRpdXxyYI36zEBq0NpS/gyaRoaiq8mr7t+KvKl/QMlL3h3u2EtwBoLXmQpsgCmSqtzKOZRgdZrjkNvP4DkWAUapyjUruN1vMcqXiI51RJAqFRpKsA5S5NppJFkfJFDr0rh4soGvMidPj8iyhR3zszZk7Zw5zkK84W7kLVAn0TRgYfJ0MTab0cjr/V8UddXHtfwDAHOuq+AAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOXQuCQBD0o7ZMhR56jvsDop5o4NtpUoLaQRa+hZiQcBhUBP362qOB3ZmBYXcUVVGUL0KyxFIKCwc0XEbCGuqxy3EHOlqdJ2eYoLCZEP3oJI/2KvoPTGXU34SRk1W0BkCr+jBDWqdFQ/a5kzJOsiqr3ZyT8rA9FRlxSM1hjhktDcCQH1n3Gt49LFCvIpf6LvWoR8I4pLEfEF6CKRuC9T9vy6LV0N3uon2Suh3NH2IqAKjNAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVP2wqCQBC123SHHvqA+QFxd0UD33Y1QrBWysS3kBIKFoOKoK+vWRqYORcY5ozTcRznS2XR1sKSGTV0aYyVrASTp8MGeiR7uSqhT2QujWlaVz3qi2k+MCBrwldB6GrFwxSAdIfDkGBlbYz1rtjrLNObtMLU07jVyTFbI2fo+qxMYkwPOpPFOkGdIw/zAka03I19GNss8vy6vRuYEF+GnuCeYIJhEAUi4j7mW5ja7DD7353bF3a38/Vu6icWdTv9AaopEjLnAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO2wqCQBT0UqdMhR76gP0BUVc08G1XwiRvqIRvISYkiEFF0NfXWRo4Z2ZgYEaSJUn6IgQLbIUw8EDBp3HWUodd6hhUtGrJz7BAYbJpGmaLP7rrNHxgKaLu3g+shkdHALSyCyskEhV5UxVpESct8QJSJnlNmkOVJTlLCU9PsMaUEnmgiU7Wv8b3ABvUu8Cmrk0d6hA/9GnoeqTMQBcbwfgXmGJqPva3+9Q9SdPN+g8YhMeFzwAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVPXUvDQBBMW12tbdEHf8D+gdLc1Vjs2+Wy/YDkclyuad8k1ICFUEGl4K/XPRzYndl5WGaiXhRFv4zAAQ9BjHmgz2uYqoOM1Wu1hgGfA5vWcMViorquPU/Tz+ata3/gmq17uRDCTr1ItJTZiwVgsyfghmlvlaG83tIebb6rcIGW3Kp0hTKa0JMrtkbl6Mud3mClHZFBkeBhrdCvPOoyLx2S35Az5DHLHcqnGjMNt/y8r+cwDIHV8ft0aeGO9ePzTIqZjGWMyTKRSzFHW8AoFITxf65J6GlOx/ePrvlC35xHf1UUYI4MAQAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAFVOXQuCQBBUqy1LoYd+wP0ByTuxB99O++Cg0yNNegsxIUEMKoJ+fe3RUwO7M7swzBimYRgfhGaNuRYODli47JifmM/P+Q4GeA5UXMIQhcu7rum9+F5duuYNI+2RpQhXnlorWVIA/JgUxkhUHbKtiI85kTwvNgeSZFKKVCS8EFlKZLY+7jfkzz1Bm5UEYOsevH62rwamqBerJaNL5jOfhFHIIhoQJWGme4PzS3R1lbStr7euepCi6mdfatT0aOMAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnE6OEUYGjvHB7mzMQC5zgFMYGwuQweuYk5Oap+tUlJiSk1rJxgoUYjc0NzXT9TNiYwNyGE3Y2IEUd3BOfomCWyZQcREbB1CAydmYjRNkuGNySWZZKhsXkC1ipm9kqG9kYGSgYGplamRlaKwQ4MvGDXIMGw/ELF6Qm/wykzPycxKLFUIS87gBqSplQbgAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOywrCQAxF6yu+wYUfkA+wOI21qLuZWopQdbC16kqKFhSKgorg12sGA8k9CVxyrZJlWV8uo6Z6BjrcUObRVHJPQh7jECq8VrRKocrQlUWR32z1yM5F/oGa8Tie8Ox9pMgVAQBfSg7UWaZKxgsf9XoXbDDeah0dkFybJuncHzCJHU6FTZ6bSh8XK71NMF1HiQwDaLC97I+gafLI0+v6zqHF3PeG5AxJkMDxbEwzZ4R6CW2THzr/z10TaXU9Xe5F9sQku7V/pKZ/QesAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO0QqCQBDUrC1To4c+4H5APM8M8u3sRIQ0UYveQkxIEIOKoK+vPRrYndlhYUZRFUX5IiRLLKUwcWCESw/5mVF+KWPQ8NTy8ARjFBbv+3aww0d97dsPTNBabD22tou98CiNshQAPdWFKRJJI5FwYpOyOorkQHxKKWqeCV4IEmUxzPBrtPNAl8G8eXXvFuaoVxuHuQ6jjBI/8FngeiRPwZBFwfwHWLJv1jW3e18/SVUPxg9P+rfi1AAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVPXQuCUAzVrPUNPfQD9gckvVJRb1ezutTVyJvWU0gJBVJQEfTra5cObOdsbOzMMA3D+BI0a/S06FBAhVLT53vm8GOyAItKa+OnUCXR5WVZ3Gz/kZ/L4gM13ZqMHddOs0TJMJIA1DJdqBN5MpwJjjbOeaDi7UHx9QpTEWaYqN1MxDiPtyh5sBRRiDSqRBxBgxYrgQdNbYWfXtd3AS3S/dGAuQPmMAeH0yGbuh5uJLS1dej8b3b1B9H1dLmX+RNVfmv/AOxI6IjmAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOTQvCMAyGp9O4+QEe/AG5e1jbMQ/eNgUvKoOJeJMyKxaqk1n9+5pgIMmThJe8QScIgi8Fd44pw5gSulTiIj8pkZ+rDYQ0hmVxhB5Bb22cgz5RtNXeZqkQADR1JAyoSV7698UgX3Crn7554hxZhWXbYOXsHYvWmmutXwZlBhHJuqsUYn6d195+DAyJZ4tEyUQJJTBbZmopUyx3MGKrMP5/nLDjva1vjdMvPOjH6Ad/ZXBT1gAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAC2OzwqCQBDG1z+NmQYdeoB5gVBX7OBNCzoZgpLdwmShhUVBLejpa5YamJnfzPAxHzMYYx8K3XVsNPiUYFJx8+zKw+xWncCi0SrzC9gE9lEoBQsip6iSiIcNAA1GBA61WF+xGO5SCSzHARs5CiWmiXbPSeBfgjus5dz2eBrbNyxJaB5icPXvrJvlS8CKeLsPeBTwkIeYpAlPoxjLAjztFfzfz7W2fJbdY1DthHXbe19DLC9m1wAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnE6OEUYGjvHB7mzMQC5zgFMYGwuQwR+QkZ+al1mh4JyfV5KYXMLGChRkN7KwNLQ0NmZjA3IYjdjYgZREqJ+vo5+ju6uLQnC4Z4izh4KhmUKAf1AIGwdQlsnZmI0TZJdjcklmWSobF5AtYqZvZKhvZGBkoGBqZWpkZWisEODLxg1yGxsPxGBekBP9MpMz8nMSixVCEvO4Afz3z3bHAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAC2OTwuCQBDFLW3MNOjQB9hjl1B308Cb2qaCqfinuoVIlBB5KPr6NQs9mHm/dxjeSCNJkr4o4UILAQYOjHFpgX+mln+pIpAxykVwBAVBObW3ASZI6tax1sxlABjGNgMVfbVPeLoLmoqEeVOkvCS8jnmZ8dpMCrKpYxLxjPAwh6m4ChlootHv3v3nCjPkpWtS26QWtYjjOdSzGSkOoIsPwfg3zcWnWd/dh0f7InX71H+7WSiJzgAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO7QqCQBD0o7bMgqge4N7A86SQ/mkeEVQcnkb/Qq4DBTEw6fVrjwZ2Z3YWdseyLcv6IgwbLI2YY4GDzUuTO6PJQx7BxdEV6Q1GKFZS1Z1unronvNVq6BsFY/R9mUUsTstdLBkAGjaFCdL6zO+n8kJkwYXgeZafbhymuHAOEXjmW6KG5qNhhnqzC1gYMMoo2e63bB9GRFzAN+lg/r+5MCGvjapfbfUmRdX5Pxm3D1fJAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOXQuCQBD0o9ZMg4h+wP2AxLuTU/DNLgmJk4OzXiPCB6F8Kfz7tVcLuzOzzDLruI7jfLAs2lpbEmODhyNU8sRpfTVH8FH6en+BGZLADP2zH18wR7HJa1MIlidZ1VKW0GpPAXDvMggQiGlU1TWSmCJhgtIdkfrMfn6i2/SgYYEuT2YQ2tjq/h6mHpbIt3nKWcopp0SUgpcMDxRE9k2I/wErhEj1j2kYSXcbSfQFxhFjENEAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO2wrCMAydTqNzCiJ+QD5gw65zXvZWi8jQwqDqq4hWGOiEKaJfrykeSM4FQo5TcxznS7Bs0beiSwN1Wp6Sa86WB70Cl6ybL/bQINHShbmZ8gFNMoPJUk/nyTicbXLGQyYEA6C8FkGLKNSZEttMop4GqMztXn1QHqvzAy/3isIwejOGMt8FyFcLaNNJXcbg2Q7i9CxeBjqkh5MRj0accYZJmvA0ijFX4NvO0P1/6xH5ylxfRYnbY4n+D587TIneAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOTQuCQBBdtcZMhQ7Ref9AuB9q4W1dJCQWBMVrROxBKC+Ff79m6cHMe2+G+SAeIeSLcOywcyLBAB9TZPRVsObWXyBAG3T1CCsUYT/Zl53fsEaTlk3HpZTHvFaMAWDJ4xAiHfrWqKHVtDOUF+xERT5mZwUb7PlaQuTuqMdnWixsUe/LTPBMMMFoURWi4hInIXZ/QfJfmyLFxj6XaabDfabxDwxnGePCAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOTQvCMAzd/IjOKYj4A3LXsbZzCt62OWRItdAh3kSkh4HWg+Lf11QfJO+9kEfi+Z7nfQiOHcZODKmgRS2QxU6w8qy30CbbVvkROiR6ujF3Y5/QJTNZlnrF0yRaZBnjETvlDIDmPoce0UxXMqurAjdqjsXDWnN9NQ+LZS0Yk1jJXxTVHqsD9CnQKhII3AcZLb4NDEhPl7HgsWCCYbpOxZonqCSE7mMY/m+NiEJpbu/GYn2xGH4BkyR3dNwAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVPYWvCMBCtup1zVRhjP+D+QDFJVwW/daFIkUKhMoR9kFIjC9hkNNG/7y7bwd1777jH3UWjKIruFAFDvAQyp4QxlVkld4IVx2YLE5KT+uMTHohMG616ZRw8knhdbXfr7D1NeH5gLGGHggFQf8RhSvAlbd9fje5ar61x+DPYTjlnB5Q18j8fnkl11hjVhRm0Z2zKKt+XEpt1wjPG0Fsszenq/KDbCxb+Ww1GeXiiBWOZwixcnJP7puCZ+NtqKfhSMMEw22Riw1OsK4jDhzD/v21BEFfqctMG963B+Bfwzz+HDAEAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOywrCQAysr2itgogfkJsXq9nV1uptLUVECoUVryJSZMGu4Ov3NYsDycyEgYlX8zzvy3DsMHCixwN1Xn6e7iVlJ72FBttGsTlCk0Vbm7Iq7RNabIZxppfRikKhsoRCUooA+F4T0GYa612uDrsU9TIUEdEEq/vbvoy94uNsbrhI5DTGqoIOh+vpHHzXri4v8ymhy3oUz6SYSZKE0TqSazHHIofAfQu9f0+fKcjL28dYPJwtBj9ZLoTP2AAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVPXWvCQBCMH121iVCKP2B/gMG7C1YqfblGEdFA5GzAJznitQRrFHMo/nrdw4HdmdmH2V2v5nneneDY4c2JgArq1DpJvBBsulUzaJBtpN8ZNEm0VGEOpqzghcz7p5yOOOehUEqwkEvJAGhe49Ai+kqTcPUjl/P1BjPO+qiOv/aqzwYn2aSP1a2y5oAnne/1n0F7OxlUqKwud/q8gzYl1OMIOu4kmdviYuCVdO9jIPhAMMFwOB6KMY8wTcB3L0DwXN4l8hPzfylKXOsS/QecLaUp7QAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVP2w7BQBCt27iURMQHzAdo7K4gxEuVeKA0VvoqG5Y0KNEN8fXMxklmzjnzcGbGyTmO8yVYtmhaUaeCPLVqGCwFm+/lAgpkC9E0hiKJskz0TacZlMi0Rv58yDnzhJSCedz3GQDNcxzKRJMo9ILNerfdrDDmvIPyfjJv9dQ4i2cdzD6Z0Td8qMNFnTWaz0OjRGlUelTPI1QoIR/0oGpP8g8meWmokW4PuoJ3BRMM++O+GPMeRiG49gWo/5c3iNxQX19JijuVovsDzqBq5u0AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVP2YrCQBCMV3vEBVn8gP4Aj8lkEyUvyziIBAkEE6JvEsK4DO5OFiP+vvZgQXdVNU0fTstxnCfBssXEijEFtCkNE7nnbHvOdtAh20k3BXRJ9DOt/pRpoEfmMxRF6K/5nG8FW80DcWIAVG950Cf6PmojJf6X1bX8UXipb5jFichjiXEqZ1jVptHNvcH6EuG795AjZ1/rGRarRQADGtKWPgztVaK664eCEelpuOTekjPOMIgCHnk+pgm49gsYv/d/ELmJ+n1og3lp0H0BNu7B4/AAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnE7+oYaWjvHB7mzMQC5zgFMYGwuQwR6WmFmcmJPIxgrkcJmaGhoYGhiYGBiwsQH5jOZs7EBKGqpGwTNPwaU0uUQhJETfN0TBw9fFzIiNA6iAydmYjRNkk2NySWZZKhsXkC1ipm9kom9kYGSgYGllbGFlYKTg6MvGDXIZGw/EbF6Q/e5Fqen5RZXcAE46hznAAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnE7+oYaWjvHB7mzMQC5zgFMYGwtI0ik1JzM3n40VyOYOdjMycdQNDtINNmJjAwowmrCxAykliBoFl8TcgtQiBcfkktLEkvwiBWTlHEB1TM7GbJwgM4EqMstS2biAbBEzfSMTfSMDIwMFSytjCysDIwVHXzZukAPZeCBW8AIpdvei1PT8okpuADd00fXHAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVP2QrCQAxcr9SjBR/8gPyB262o7VvbBRGsClVfRWSVggdstx5fr1kdSGYSQjJhNcbYh2DZom+FSwF1Sp1ktfXDeJ/PoEFlY53soEmiJZ9vpaFF0stygbmYBKPQ5xMAatV8cIgSgS/8DaKdkT4XuEglLuf5BmV1NCiL00lpdTPF4YJrrcqy0go3+nArr4UxdKFNe+ppAB3rKD6a4qGgS3owHorRUHDBMYyCaUSr4wx69gNw/xY8Imem1fmu370vcPcO4egAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO2wqCQBTcso5dFHroA7YPCHUrrd5WA1+KBMnXiFpEWFxZ7OLX11kaOGdmYGCG9AghX4Rhg5kRDh708Y3j8yXY8WuegoXWyuICBihcLqWoaaxvDyk6GJpoEG3CZRZHGwC0vQBspEWi6lYrSY+qrD6UrQt6SGim3kLT/Nk0soMRxvrJCsamlN/b6iVggnoeemztMZ/5dLdfbfc+o/wEUzMSnH+Di2SnWpRKd9MfvVRoXssAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO0QqCQBDUrDVToYeg1/uBUM+Q9E0rfEkSpegtxDsiOBSOLPz62qOB3Zmdgd3VdE3TvgjFCkslHCyYYLOy8yWI03udg4GjUWZXmKJwUyF4RzLZMMFHmCkriPyIbMjtVFfHAwBaOgUTaV32Hy5JxdnQsaZrR1L0bBAc5hhO9iFY6lzavp5vDgvUq8ijW4/61CdxEu4Sn5K0AFu9B85/r4tk5pI/ejnaP6LUANXFAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnE7+oYaWjvHB7mzMQC5zgFMYGwuQweuYk5Oap+BUlJiSk1rJxgoUEnN2DFEwNDMw043wCTYyMXBVCHYNUnBkYwPKMRqysYOMDcgvTy1SCC4tKMipZOMAijA5G7NxgixzTC7JLEtl4wKyRcz0jUz0jQyMDBQsrYwtrAyMFBx92bhBjmPjgRjGC6TY3YtS0/OLKrkBCHhznMMAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOTQuCQBQ0q2emQod+wN46hV+Z6W314KVIlLpG5BLC4sZiH/76eksD783MY2CeNtI07YtQrLBQwsYBHZeZHU9+Qi91AWO04zI7wwSFQzlnHcnkteFsgCme5n4cbdcljaMKAP3IBwNplYuul4KTvbi3H0JzUrHm2TXXrieleDNJ6ufjwQeYYVjPQzBVN7317YvBHPVy6wYbN/ACjyRpuEu9gNADWOpXsP89DpJRSHYXcrB+93/vltIAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEADVO2wqCQBA1rdFSoYc+YP/AbVcifVuNfIqELvQWImsJlbBuQV9fs0QHZs45c2HGGliW9UEYNpgaEWCAjWmcbQ/zRJx3BThonTI7whCFJ/prrbpGwwhdmJ/4ms5jxiktBQCWBhxcJPqfI6ZVkVXbNFLJh26rGymV7PunkmSvqkd/b7WWCjzcsnMOY/OCqHX7kjBBPVtELI4YZZQkKV+mlBGxAd+8DMHvYIjkFkpeOvX2v3BGrbzZAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOTQuCQBCGV80p06BDP2COQcmua4V628TKQxCs0DFCjLwUlNTPr9l6YeZ95gNmmMUY+5CMG40NBBRgU/LUUUuhTnoLDpXOWmnoEbh5+6zv4BL6ZRHGQogwqXIAalhL6JNNfytYFmimqN9tV1/nmGAkeESNGUqsuN4cYEDbdi7BM1dV3bWvBobEkxWXCy6FFJhmcZJFKao9+OZLCP6HRoZ3zeNyvvlfeADjBcsAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOTw/BQBDF+4ehSuLgA8ydptststzWKnpQkm2iN5GmohcShI/PLC+Zeb+ZZDLPsi3L+pCMG/UNdKnAoebJg+ZMHvUaXBrdhdTQIGiq+lHeoEnYU7ss0FkepInIFQCt7Am0yGLaqkAUkyJbLPF3gWkSM8ZQv+tneRmhwIiFEcMhcsxDvdpDmw4dxcEzEWT5rF8VdIgH05CPQ844w9k8FvNohnILvokM3f/PnuFNdT+frv4XTGZ/L9gAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWO2wqCQBCGNXM6aFDQA8wLiOtqkd6ttqSkXbSRlxFi4E1BRa9fszYw838zzMkwDcP4kmnVNtfgksOAwkTUijNxUTuwKLVSoWBIYGfdq3mATbhQhVRluo9PXrDiLJICgMrmCkYkXt+IhcSQMYalOCDtkFgXpxxrmfbZFrfyjNXuCGMaGWQcJvoB0by7TwtT4uXa55HPGWcYJ+EmCWIUFTj6YXD/12aa8/Z5u96dH+M0pgzWAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnI7hwUYGjvHB7mzMQC6zk2MwGwuQweqcWZycz8YKZPIFhAfperqaGoTrOjrr+rCxAcWYDA3Y2IG0FFBUwdFZISC/PLVIIbi0oCCnUkHDJ7MkVZONA6TO2YiNE2SXY3JJZlkqGxeQLWKmb2Sib2RgZKBgaWVsYWVoqeDoy8YNchsbD9RsXhDHI7UoLTGPGwCdbj9QwgAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnI7hwUYGjvHB7mzMQC6zk2MwGwuQweqcWZycz8YKZPJ5uhobGBjouvg56rrq+rCxAcUYTdnYgZSYp6sCSE4BKKfgWlycmleSmZhTzMYBlGNyNmLjBFnjmFySWZbKxgVki5jpG5noGxkYGShYWhlbWBlaKjj6snGDnMXGAzGWF8T2SC1KS8zjBgC/sW3YvAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOUQuCQAzHNXNlGhT0AfZe4nVWpG+XSQnViw/RU4hcIJiBJ0Gfvnb0h22/7c/YDNMwjC9JV62JBo8CepQccc05E/f8ABa11k7k0Cewk0qVL7AJp1kaMsb8/UX4qX/ywxsAjc01DKjMsxS1jWRjqpRsuqqo1QJD/MiixU62T6yrUjZKwpAWegkHR58XZVe9JYyIZ5uArwLOOMMoDrfxMkJxBle/C97/1ljzUbaPonF/yv45DdQAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOTQuCQBCGNXPKVOjQD9hTN3F2jVChwyZSHvZk0DHEDITQyIr+fc3WCzPvMx8wY5iGYXxI2rXmGjwKGFFy5LEUKE/lDiwqra0sYUxgZ+1Q92AT+kWugggRg/igNgDUMjlMyJa/JVbkesry963qhrbvmOrPz2vDYsYx5Igwpd1RJsDRV2X9aF8NzIgX61CsQoECWZJGccoTJhW4+kvw/md8zfvmfqk69ws52p/VywAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOzQqCUBCFNXP6MaFFD3AfIHG8Wpi7q0m10BYGuQsxAyE0sqK3r7l1YOZ8MzDMUVRFUT4k6VJTCRMq6FEbiWPGUZyyDWg0aqHIoE+gR3VXtqATmtE+tbL0YCWuf0gAaKU6MCDzaBtZfr7I03DNfhdsF7uIyOL3rWi6um1Y0p6f12rOfOag7SDCkC57EYeRzCDKR/2qYEw8W9rcszlyZKvA9QNnxUQChswMk/9TU/K2ul+KxvgCm/c9rNkAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAC1O2wqCQBDdLk6ZBj30AfsBRutaoUIPm2Y9tBTsQ72FmIGQCmr9fs1CB2bmzP2QHiHki9BRY6aJjQZ9dKa4Ks7EXR1ggOlgJxQMkRhR0WY1GEitwylaqNtCyngLgIW+y2CE0XMZY7iwxy5VyYV2TVq1WV588oaW9eP9yh0qZeJQf82q0qHxWcJYH4g4mFqByDochgny+WbJV0vOOKNB6PmhG1AhwdKKwf4/nerkmDfPtLJ+2IVNatgAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOTQuCQBCG/cgp0yCoH7B4F3c3iey27SE9ZJKCxwgz8rKCff38mqUXZt5nmIF3DNMwjC9Ku9Zcg48FFjZX1CWn4lzuwcbR3okSRghOplSvwEFcMB5muUzDSoZ1ljNanI4AuDBjGKMFVf9q7qRshrZVpJCE8YDUnbr2nwdhlBRDDxO8syQHV+eK5tm9W5giL9cRjyNOOSXJdrXZsoSIA3j6T/D/ETPNaTvcLsr7AVK26nnNAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnGGuQYaWzvHB7mzMQC6zc7AnGwuQweKSmpPDxgpksYZ7m1kas7EBmYyGbOxASsQ5MSknVSE3MS8xPTU3Na9EIbEol40DKMPkbMjGCTLaMbkksyyVjQuk2kzfyFTfyMDIQMHCysTEytBMwdGXjRvkFDYeiKG8IGsc84rz87gBCroh4K8AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOTQuCQBD1I6dMg6BuXfYPhK6oqDcTqQ5GKHQNMQPRXMgtf37N1oOZ9+Z7JFmSpA9CsMBSCBMNFHT6Jc1pmFyLPagYqklxhAmKVc6qdqy7jsQvzh4lb1gPGhaM0KPB9nDepacMABMyhSnSpmB3PpbPmjT9wMuu+42QWzO0A8ywQUko6OJsXPHmXcMc9dq3HM9ybMcmQeS6EfVJnIEh3gTzv3uBpMX9wHrjC3eHIxzLAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAD2OQQuCQBCFTWvMLOjQD9hjQZFaRHYJM+gkSpIdw2Qpo1xYV8FfX7MFDcy878Ew85SWoihvLKmyhhL62KDiMHbhyXa9S3wADa0W7RJoI+hHVudxU0Lna5J4tg99ADQtG3SU7bmh4k4izh40E2TPsupFC1GSsZ8+8ytPRc4K4lMuyikJ0qJKnwj/tQl08YjqL8CQUbxM5DWFHvJoNXeWc8dyLOJuFuuN5RAvAFNGh/7v/0BmOnB6Y7wxPxL8AyvhAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOTQuCQBTUrGemQYd+wP4B8RNJbxrhKYqyriHyCA+6sbsG/fp6SwPvzcxhmDFMwzC+BM0aGy08OpjRc6rTLcrLx7UGi6x1ru4wJ2EfBhSSj7DQJktTv+w6ADJmBDaRf+ESBz6NijU4vFC0ahLIGtGOcuiVQsEogVJy0aOEJUVm+wQcXVx2qn8jrEhvsyBOgziMQ5YXya4IY1YewdVDwfu3rfWCWuCTi4/7A4Q3cyjPAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOTQuCUBC0rDXLoEM/YI8Ghe4Ljbo9C6TsQ3wqdIoQD1ERRET/vvbRwO7MDgOzRsMwjC9Ds8ZAC4cHmrxslaQ0lycVg8mnGUkFLe1Ht3N1xejxgbbOJ2Ue0ExOKCxKAHYaBBaTS7P1HqnA7XKFeSaP6FI4wjKWYyxU5KVKYHrIcgUdTjeXAmxdLavX5V1Dl/Uw9ETgCV/4SIspLSjAdAc9/So4/6I+k7Wpn/X9cu79AFs8hhLRAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAC1OzQqCQBDetMZMhQ49wHbqJO4aCnrTZUn7Q9qsY4h4kIogInr7moU+mO+PgRkyIIR8EVo1ptq4OGAg2WpT8SS7qBWYGM08UzDUfX5r2ivNHx8YYfRksU8YY7WPFANgZfAYLNR5vKBKHk7qXB5FQaXwMZVSUVHVVGT5VsJYr4sQbH01a1/9u4MJ+lkchFEQspBRni55yiNa7cDRX4L7P+GhWuvu2d37xvkBFVqnIc0AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwIRvt4h8cHubMxANqtjSm5mHhsLkMnimZ2ayMYKEnQP9XNxZWMDMhlN2NiBlIhTTmJytkJafk5KZl66QnJGYmZRMRsHSJdvdkk6GyfIWMfkksyyVDYukHozfSNTfSMDIwMFIytjYysTC4UAXzZukFvYeCDG8gIpdueiyuKSxBxuAH0hq6uyAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwIRvt4h8cHubMxANqtjSm5mHhsLkMkRFBas65tdks7GCpJwMwoPCGFjAzIZDdnYgZSyW35OSmJSTqpCSHm+QnhGamqOQkB+UQlEqCg/Jye1ko0DqJAFbAgnyCbH5JLMslQ2LiBbxEzfyFTfyMDIQMHIytjYysRCIcCXjRvkPDYeiC28QIrduaiyuCQxhxsAVZC/E8UAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwIRvt4h8cHubMxANqtjSm5mHhsLkMkRFBas65tdks7GClLklJiXl1rExgZkMxqzsQMpp4DSnBzd0gKFJLCUgq6CZ15avg6GqG9mcXFmfh6mRGgwGwfQHBawJZwgSxyTSzLLUtm4gGwRM30jU30jAyMDBSMrY2MrEwuFAF82bpDz2XggjuAFUuzORZXFJYk53ADAmXea5QAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwIRvt4h8cHubMxANqtjSm5mHhsLkMkRFBas65tdks7GCuI5JSZnpxTlF7CxAXmMRmzsQErYuMJYIS0xqSgzWSEJJs8BlGAB6+MEGe6YXJJZlsrGBWSLmOkbmeobGRgZKBhZGRtbmVgoBPiycYNcxMYDMZUXZJVzUWVxSWKOAjcAmbxVwLkAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwIRvt4h8cHubMxANqtjSm5mHhsLkMnimZ2ayMYKZLGHJCblpOoasrEBOYyGbOxAihMsplCSX8DGAVLsm12SzsYJMs0xuSSzLJWNC8gWMdM3MtU3MjAyUDCyMja2MrFQCPBl4wY5gY0HYhYvyHznosriksQcbgBS9NQyqQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwIRvt4h8cHubMxANqtjSm5mHhsLkMnimZ2ayMYKZLGHJCblpOoasbEBOYyGbOxAihcsppBUlJicnVrCxgHS4Jtdks7GCTLRMbkksyyVjQvIFjHTNzLVNzIwMlAwsjI2tjKxUAjwZeMGOYONB2IeL5DicC6qLC5JzFHgBgCR8NlIrgAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOwQqCQBCG19LR0qBDDzAvIMpqEd6kQ0QIQd5j1zZZ3DyoBD19zdYPM/83c5h/mMMY+5CsW60tRFQws60617frEebEXnl/6h5cQvfUKQEekV8LaVScAdDg5OCT4W+HRrUjxqh7lEY0HT6EHHSDUrQQ2BtVN7WwsCFlM+mXgiXxZpfwbcJTniIvsqzI93ipILSfQfSPWJEFh+E9TsJg+AXqzac8wQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwIRvt4h8cHubMxANqtjSm5mHhsLkMkRFBas65tdks7GCpIIyE/Lz2FjAzIZDdnYgRRvQH5xSWqRAlA4JbWIjQMoxAJWzgky0zG5JLMslY0LyBYx0zcy1TcyMDJQMLIyNrYysVAI8GXjBjmEjQdiHi/IPueiyuKSxBwFbgAnhJPPsAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO2wqCQBDVytHSoIc+YL4gTUvCN1GKHpTIDwhZl1jQXfIS9PU1SwdmzjlzYcYwDcP4EjRrbLTwKGBGyUnz4lo+qgvMyVlp0wkJC5L2Xb1F9RnAIuOmjKlJjkOuGAAVzAhsov1ZyFoyUbdInanjNII9f02i5w2OCodR9RxbJZ848r7bITi0NstiWOoPslYNvIEV6W3sh0c/DMIAwySKksMJbwW4+mPw/hfXWpeCqZa7PxSNeKjXAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISHI4uvp5+8cHubMxAHqtjSm5mHhsLkMkelF+WGVxZzMYK5LA4lxYUs7EBWcyGFqZs7ECGSnBuYk6OQkFOYnFJZrJCMlCBQnlmSYYCVJ9CTn56PhsHUCWTsxkbJ8g+55z84tQUNi4gW8RM38hU38jAyEDByMrY2MrEQiHAl40b5D42Hpg1vCCeX2Zyfk4qNwAMScx/xwAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAC2O0QqCQBBFV8tR06CHPmCh10BZS8Q3MYgelMAPCG2XWFJXWvv+mqUGZu65MMMdYhFCPlhGTW0MhNhg4/CKU3Wpb80ZFuicgg9yhCWi20gxiFGDg8av1Sw6pZ4aAK2VgYuyayb5anvaqffIKVfzLDid2ofQezr+D8DDRbtMwTeJZa+04LBC3qYRO0YsZjFleZLkh4xeKwjMhxD+MtaGa3lXvQi+uKFzcMcAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAC2O3wqCUAzG1XJaGnTRA+wJUrSkvBOD6EIJeoCIzvEPmQc8lo9fO9lg+37bGN80XdO0D4VSFUsFLiUYVOzkkJ3y6+UIE+rMhD3rFqZqmwrR8A5MYmtkCUCNHoJFsvvPcKj7CoeK80ZiITqUvehuJUdRIOvq9iGRvUhL5G/e9nINNl0baQSzn0sjJGcwJ15FXrD1Aj/wMYjDMN7s8ZyBo34GdzReKM7rOzk7X2jtDpHZAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOXQqCUBCFtXSyNOihBcwCIsU/zDc1CB+UoAWE6YXEawY30FZfc/HAzPnmwDCjqIqi/EjSpXYSLCpYUDOSc5GX99sFljTpSdO3L9AItbxjFegyTIeJCQBC1YcVWZTyqu7wIfMD8rYROLafJ34Z58OINa/EWxwxcOoeJ/Si2WgCg7YXWQhreT/jg2ANbIj3oe0Gtuu4Drqx58X+Ca8FmPJfsObDW8llWw+cmX9s3obL1QAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnKGewYYWjvHB7mzMQC6zc7AnGwuQweKSmpPDxgpksUaGB5m7sLEBmYyGbOxAShokpxCcWlSWWqQQkFhUUqygqxBkbmKgH+HCxgFUwORsyMYJssExuSSzLJWNC8gWMdM3MtU3MjAyUDC2MjW1MjJSCPBl4wa5iI0HYjYvkGL3AJqXn5fPDQCaH9EvuAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO0QqCQBA809ZMgx76gP0B8TwxwjcxKB+Ko0PyLSLuIZAUM6Ovrz1a2J2ZZdhZZjHGvlQGTS0NCahhQsOrShVv8ovagU3SLlQJDhFnq5sGpsZ/THhdo+D8HEpVhScA2loCXAI0NlS6H3WP8toPTwxRtm9S6tV1zQdm5JoUMXgmMb8N91HDnPhqHYk0ElxwTLI0zYRAeQDffAjBP2BB4O7paPto/R8yY4vjyAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOzwqCQBDG139jpkGHHmBeINSNjfAmK6QHQ1jqGlJ7iCRhE3v8mqWBme83zDDfMIcx9qWwamNtIaEEl0p0blR+KK/qCB61nlQN+AR+pYcBAqJAVvzSAhA6OYQkaGeotJm1wa430xu3eNLTZzRPlL25w4K2XJlDZG3K2/SYNSyJN/uUi5RnPMNdIUTBOXYtxPYtSP4GK5KwpqPja4x/ofED5r0AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnKGewYYWjvHB7mzMQC6zc7AnGwuQweKSmpPDxgpk8UU4K+gqGIYbGZorOBoYsbEBxRgN2diBlBJIkUJwalFZapFCQGJRSTFQpWNxcWpuUk4lRICNA6iOydmQjRNko2NySWZZKhsXkC1ipm9kqm9kYGSgYGxlamplZKQQ4MvGDXIhGw/ECl4gxe4BNCU/L58bADG9vxLIAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnCFuroaWjvHB7mzMQC6zc7AnGwtI0rm0uCQ/l40VyOZy83F28XU2dfKJZGMD8hkN2diBlI1fakl5flG2gnNiUk5qsYKGa0lGalFeaomOgltmUmqRgn9BSWYyCkfBsbg4NTcpp1KTjQNoApOzIRsnyDLH5JLMslQ2LiBbxEzfyFTfyMDIQMHYytTUyshIIcCXjRvkcjYeiOW8QIrdI7GoJD8vnxsAWFj9e+AAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAEVPwWoCQQxdtY1aLfTgB+RYQdCZdit4a1fRHhTpQq9lWVOwzU6W2RH7922GFhpI3nvJgyRJK0mSb42IMW4iGWpCW0t/td2Z9PEtX0NHZSfLn+FCSXdVkW/EwaWK3strbuf31gCoahnoKvBSylNFLjQT/DNjJi54YSb/38vlPZwLT/gkX9Tg7d7LB5UBS6lqpkAHtDMzn+D5yIw1Fw6D4CdRjScXjqxTa8fQ043tzEA/Hp6xNHSAK+Wjh6lNp+qZ4d0iTRfW4n4Lg/goDH+PvY7vbAofxMngByli4CMPAQAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnCFuroaWjvHB7mzMQC6zc7AnGwuQwR6cmZqbmlfMxgrkCJm5BpsbmhrrGjkGGZjoGkQ4GrCxAcUZDdnYQWo9fRWSE4tS2DiAHCZnQzZOkOmOySWZZalsXEC2iJm+kam+kYGRgYKxlamplZGRQoAvGzfINWw8EHN4QeZ4JBaV5OflcwMAxdGD6rQAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnEGuzoYWjvHB7mzMQC6zc7AnGwuI4armwcYKZPAF+AaYGuqahjmb6Rs6G7OxAcUYDdnYgZRIQFFqcXFpUapCSFFiXnFuZklJahEbB1CGydmQjRNkhXNOfnFqChsXSLWZvpGpvpGBkYGCsZWpqZWRkUKALxs3yElsPBBDeYEUu0diUUl+Xj43ABl+dTu5AAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVP2wrCMAydt3gXH/yA/IHdvKC+1TFU5g061DcprmBRJ9Sqn6+pBpJzgYQTL+d53ofKoau2Iw1qyNOoCnlVj+OUCyiQLDhS/Pmnc6Z0qgyUSLbEYR8vEi4OPmPMByAv50OZIORPe79Jq+8ZCmVeyuBcmvQtjcJY2wfOdzzEKQ/XUYIyS3G5WeNb27PzYtwueRJBhQ4VQz6LoOqS8ZPVLwU14p1hNxh1AxYwHEz6g0lvjNsV1N0n0PinaLrllb7o+heN6CcQ7QAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVP22rCQBCNxo5NTaUPfsB8wIZstrFU3zahqGBoYAv1raTJgsFcYI3+vp2tAzPnzDBzOOOMHMe5UVi08WKJTwljKp4qGn3+SaQCl1rXksn/vDx2uq60gQdq5+rwLVUi4m3EOY8AaDaKYEqwV21hhgOmfTeYvmm0wQClCpKAthmKmOEu/GTYFt2laLC/amNIl2Ei004PmKnwK2eY9dXv5QyPpDhJ5eYDPGtRlkN91fBEfPEWivdQcMFxuY6X69cV5hnM7Evg3+082+OsPtWzPyFzmxD2AAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOzQrCMAze3Iw/m+LBB+jVg9hNJ7pbN8TTVOhBbyK1YtncoCu+vqYaSL4fEr44ruM4HyyLtiaWhNjQwTHgt0q214xx8FB6lvg/Xzxrqe5SQxflmF/OjGf58RBRSiMA9NwIeggzxucZEU1dS2EaTUplyAORv27aXEje1EY3VSV1C31c93O238HA5jNh1FvCEPl0vYg3i5jGlCTpKkmXW3IqILD/QvjPGtnjQpUq+AKh7VeM0wAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOzQqCQBDWtCnTokPnmBcIdy3Fuq0W4UGULOoWYUJLYZDS69dsDcx8P8zwjaZrmvahUqhqrIhDDR0aVnF5VM05EgUYJA1FzJ9f3upKXqsXdEmOitMxzWPuC84Y4wDk6Rx6BNM0n8XIfcyfsm4bDPGQZBEGuM5wv0ugTztmLLYbsFSoKFv5rmBAfBK4Xuh6zGPorxb+ar7EPAVbPQnOP2CojlN5l/YXEZN3WcgAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFcvmCI8J9A5yd/f0MDQwMDNnYgGKMhmzsQEo2uCCxKFUhOLkotVwhJLUoNzMvMUchLb9IwTdA15mNA6iExdnR3ZWNE2SnY3JJZlkqGxeQLWKmb2Shb2RgZKBgamViamVsqRDgy8YNciMbD8R8XpBm38zsTG4AjZ6o6McAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFqQ+OCA92DImIiAj2iWBjA4owGrKxAymV4NS84vwiHYWQ1NwCHQUfZxcdBWMFp9KSkvw8HYVyfef8MqARHECVLM6O7q5snCCLHZNLMstS2biAbBEzfSMLfSMDIwMFUysTUytjS4UAXzZukEPZeCDW8II0+2ZmZ3IDAALc7MnMAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFcrnC3I0MDYJ0jY2c2NiAfEZDNnYgJeeek5+UqhCWmFOWqmCkEJ5YqeDiZ2yk4FSUWFys4M3GAVTD4uzo7srGCbLQMbkksyyVjQvIFjHTN7LQNzIwMlAwtTIxtTK2VAjwZeMGOZCNB2IBL0izb2Z2JjcArINka8QAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFcrl93XWNTQ2cdY1MfNnYgAKMhmzsQErK1x0krOCbn6Kn4JhcoqcQ5m5kaKBvbGjAxgGUZ3F2dHdl4wTZBpTNLEtl4wKyRcz0jSz0jQyMDBRMrUxMrYwtFQJ82bhBrmPjgRjOC9Lsm5mdyQ0ACSWfSMEAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFcvmCI8J9A8LMHSMMDQwMDNnYgGKMhmzsQErWN0A3TMFcISA/M6+kWMFYIdQTSLj4K4QEeTo6s3EAlbA4O7q7snGC7HRMLsksS2XjArJFzPSNLPSNDIwMFEytTEytjC0VAnzZuEFuZOOBmM8L0uybmZ3JDQCS3wBFxwAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFcvmCI8J9A8Kc/f0MDQwMDNnYgGKMhmzsQEo2uCCxKFUhOLkotVwhJLUoNzMvMUchLb9IwTdAN4yNA6iExdnR3ZWNE2SnY3JJZlkqGxeQLWKmb2Shb2RgZKBgamViamVsqRDgy8YNciMbD8R8XpBm38zsTG4AI6jPpccAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFcV0DAowNDH2cXdjYgFxGQzZ2IKUcUJRaXFxalKqj4FJUqaMQkJiXmqOjAFSlo2Cga6jgmZecwcYBVMji7OjuysYJstQxuSSzLJWNC8gWMdM3stA3MjAyUDC1MjG1MrZUCPBl4wY5ko0HYgsvSLNvZnYmNwAkvhcVyAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOTQuCQBBd08ZMgw6dY/9AuLtpXzeL6CQs7KFjiA20GAYq/f2arQcz771hhjfMY4x9CI4d5k4kVDCiFpnqif3tWBjwyfpOBL95/WjR3rGDMdkw2wollQAg40kIiZYG2/7Vcd1hz684cKO1lGKlciEaXcGEdoJTcTlD5NKKerBvhCnpxSZVu1QJJXh+yPLDes91CbH7DpJ/wMwdl7ax8RdpP6QewQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFqQ8LMDKydNU1NnIKDGZjA4owGrKxAynZYF/HoJAIhQBPJ+cwBRc/YyPd4BAXBTcf/3DtgBA2DqASFmdHd1c2TpCNjsklmWWpbFxAtoiZvpGFvpGBkYGCqZWJqZWxpUKALxs3yIVsPBDzeUGafTOzM7kBAhuOA8UAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFcX0DjA0MdIODQtnYgFxGQzZ2ICUbHKTgX5Cap+CYXFKaWJJfpOtbmlOSqRCcmZ6XmMPGAVTC4uzo7srGCbIOqCizLJWNC8gWMdM3stA3MjAyUDC1MjG1MrZUCPBl4wY5j40HYj4vSLNvZnYmNwAyGxV7wgAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFqQ8LMDIycNM1M3UODGZjA4owGrKxAympYF/HoJAIhQBPJ+cwBRc/M1Pd4BAXBTcf/3A2DqA8i7OjuysbJ8g6x+SSzLJUNi4gW8RM38hC38jAyEDB1MrE1MrYUiHAl40b5Dw2HojhvCDNvpnZmdwA0PP02MIAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGJOanF8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFcX0DTA0MdIODQtnYgFxGQzZ2ICXr5h8U4qgAlnMGSir4F6TmKTgml5QmluQXsXEAlbA4O7q7snGCrAOKZ5alsnEB2SJm+kYW+kYGRgYKplYmplbGlgoBvmzcIOex8UDM5wVp9s3MzuQGAHdjRGzCAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO2wqCQBDVtDHToIdeg/2BcNa01LftQk/Cwn5AiC24FD2o1OfXbB2YOecMc3Ncx3E+BMsWSytiCphQClXz0MP1IBR4ZD0r/F+97Z7a3HQPU7JBtkeOBQKQcTkERGv1NmPbMdnrgQnTMyVPJccNR0TZwIxa/KO4nCG0x0Q7mpeGOenVLkmLJMUUWV5lebUtmawhss9B/N+/sMO1uZvoC9+li4bAAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYbGjvHB7mzMQC6zk2MwGwuQwe6Yk1pUkp/HxgoSDfOJYGMDMhgN2diBFJdzfl5JUX4OUAkbB5DP5GzExgky0Tknvzg1hY0LyBYx0zey0DcyMDJQMLUyMbUytlQI8GXjBrmAjQdiFC+QYvHNzM7kBgBfvQkspQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEADVP2wrCMAydt3gHH/yAPCootvWC+raJiMhwMATfZOCQYmll3US/XlPEQHIuhHDilTzP+1A5dNVzpEMNZRrN+BDxqX+Jd1AhWQn8GKpE6r5Ks9xoqLml7Tkac8YFAyBZ4lAnCLevR6KtNBpDcy1UahEHnOFJy2ea2UThXj+K3I6QCwykTrI3Hov8ZzH0daLM7e8MoUEnyxsBTRdto4xNr9Ai3l9MxHIimGA4X8/m6+kKoxDa7hXo/NJ0CaqhvMv2F9wI3QruAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEADVP2wqCQBDVLtMdeugD5rGgSE3DerOIiJIECXoLQYmlZTdcjfr6mkU6MHMuD8MZwzQM40vQrDHUok8DNVqd+BjZi+AW76FOtr4JYmiQaAU8ywspoEmmvbtGM9tyfQBypg0totPu/UyEYlJgKNOSZwpxbFt4EeyV5SrheBDPslBTdHHDRJJ/8FwWVeJjIBIu7/9kAm26WNs60NHFtlyqLIUu6dFy7vhzx3Is9Naut16sMAqhpx+BflVmQNQI2YP1fl2o8obsAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYbGjvHB7mzMQC6zk2MwGwuQwe6Yk1pUkp/HxgriODn76rqGeLCxATmMhmzsQIrftSQjtSgvtUTBNz+lNCeVjQMoyORsxMYJMto5J784NYWNC8gWMdM3stA3MjAyUDC1MjG1MrZUCPBl4wY5hY0HYh4vkGLxzczO5AYAOdYY/a4AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYbGjvHB7mzMQC6zk2MwGwuQwe6Yk1pUkp/HxgriODn76gaEB7OxATmMhmzsQEo4IL88tUghuLSgIKdSwTc/pTQnlY0DKMHkbMTGCTLeOSe/ODWFjQvIFjHTN7LQNzIwMlAwtTIxtTK2VAjwZeMGOYeNB2ImL5Bi8c3MzuQGAKQShpyyAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVPXUvDQBBMP9xaU8EHf8D+AUmbmqJ9q0eQ0F44SPFVarPR0HALl6v67+seDuzOzMIus9EgiqKLIHDAXRAzKRhKm1Zbs1hu3qtXGIkdvWwqGIuYGMc9Nx6uxMT6rchW+YMu8z2ADAYLmAiVmuuPc497ZZLCoOpasj6pyH2Tw9x+HeyRaizJ/7A7YWE9ueZwJJS1c0fYsEPF1jvudvzZ/sK13ByqFKYhneq4pxpuRN+vkvQpSefpHLP1Y7ZePqPREIdvYPYf51ZorNtTG/8BLWkAA/EAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYZmjvHB7mzMQC6zk2MwGwtI3CM/L7WyPDUnh40VyGVxNQ52ZGMDshjN2NiBFJ+HkUJIUWJecW5mSUlqERsHUIzJ2YiNE2SwY3JJZlkqGxeQLWKmb2Shb2RgZKBgamViamVsqRDgy8YNcggbD8Q4XpD5vpnZmdwAxFLKuqwAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOXQuCQBD0qzU/gh76AfcHxLsrxXyzpB5SODjfg0ToEEryqJ9fezSwOzPswKxlW5b1RRg2WBsR44CDK5AXwfLqKs/gonUPlQQPhd+JpFGPERZowq5J5IlRWtQA6G0GPhIpEvF8acJoirf2Ns2kHuZRPyciP0r3d1hiyjlyCExd1Wv1HiBEvclTXqScckqycpeV2z0RLUTmPYj/BSskr1Wjin4egemfwgAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWO3QqCQBCFNW3SfqCLut8XEG3TqO62AokUBLsPsbWWaoN1q8evWRqYOd9hGOZYtmVZXyyjpsYGhtjQweGXh2K2YKcyBQets2EluAgea6+1ejYauuimaRbTIAnyDQ0QtmlAk4IB4Mqm0EOJsueH7ETTcMWlFtWd7OVZ1JUW8kIKxdv2pTg5qkq2D6E1V+DhVWdLwTdRWK3Fm0MfebII6TKkEY1Iso6T9XxFihwGJjoM/w9HKG4ubmLwA7fuq5veAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYZmjvHB7mzMQC6zk2MwGwuQweFYnJFclJ9WwsYK5LFE+KQUsLEBWYyGbOxAStElMy0ttSg1ryQzMUchoCi1uLi0KFUhpCgxrzg3s6QktYiNA6iMydmIjRNklWNySWZZKhsXkC1ipm9koW9kYGSgYGplYmplbKkQ4MvGDXIaGw/EBl6Qlb6Z2ZncAGsGClq+AAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuQwR5QlF+cn1bCxgriGJqYmuhaurGxATlMhqZs7EBa3DUlPVXBOT8vLzW5JL9IwbG4ODU3KaeSjQOkyNmIjRNkh2NySWZZKhsXkC1ipm9koW9kYGSgYGplYmplbKkQ4MvGDXITGw/UYF4gzeKbmZ3JDQDIJgbPuAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuQwR6WmFmcmJPIxgrksIb4hlsasLEBmYyGbOxASjwkNbcgtSixpLQoVSGkKDGvODezpCS1iI0DKMnkbMTGCbLAMbkksyyVjQvIFjHTN7LQNzIwMlAwtTIxtTK2VAjwZeMGOYiNB2IuL5Bi8c3MzuQGAN7cOcG0AAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuQwR6WmFmcmJPIxgrksIb4hlsasbEBmYzGbOxASjwkNbcgtSixpLQoVSGkKDGvODezpCS1iI0DKMnkbMTGCbLAMbkksyyVjQvIFjHTN7LQNzIwMlAwtTIxtTK2VAjwZeMGOYiNB2IuL5Bi8c3MzuQGAA/bD0q0AAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuQwR6WmFmcmJPIxgpSGR4cYGhqwMYGZDMasrEDKf7g0qL0VIWAovyS1OSS/CI2DqAgk7MRGydIvWNySWZZKhsXkC1ipm9koW9kYGSgYGplYmplbKkQ4MvGDXIJGw/EPF4gxeKbmZ3JDQDT6kLArQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuQwRGZn52fnlieyMYK5LG7ekUYGhk4srEBOYyGbOxAStElMy0ttSg1ryQzMUchoCi1uLi0KFUhpCgxrzg3s6QktYiNA6iMydmIjRNkm2NySWZZKhsXkC1ipm9koW9kYGSgYGplYmplbKkQ4MvGDXIdGw/EBl4gxeKbmZ3JDQDP9ai+wQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO2wqCQBC1tOlm0EMfMB+w5rpesOhltZCoYMkujxFdQAwEkfr8mqUDM+fMMJdjtAzD+BI0a4y1sCmgTamfb5QXy0uegUmlmcgcLBKDw36t1HS7PqygoxcU54HDeeR4vgSgTmsGXaKFWh5RVZ9HjWlV3xmmno9NRRSggzTMUIT8xNCLUJ4zhhE+mynD5HW9ldCjC+1UQF/7kbemeD9gQHoSuSJ2BRccw3kQzv0Zqh0MtX+w/89HRNauKIvhD0v57GXjAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuIEeTtycYKUm5hqGtgYGAU5K1rYKgb5B3MxgYUZTRiYwdS3B5GCs6VOZl5KalFbBxAASZnIzZOkNmOySWZZalsXEC2iJm+kYW+kYGRgYKplYmplbGlQoAvGzfILWw8ELN4gRSLb2Z2JjcA1syVxK8AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuIEeTtycYKUuCbn5Kao2BuaMzGBuQyGrKxAylZ98RihaDU9NKcxJL8IoU0IPYwUnCuzMnMS0ktYuMAKmFyNmLjBFnjmFySWZbKxgVki5jpG1noGxkYGSiYWpmYWhlbKgT4snGDnMXGAzGdF0ix+GZmZ3IDAAkfswK6AAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuQwe6Rn5aWm5jHxgrk8AUU5edk5qUqFKcWZaYWs7EBxRiN2NiBlDhMyiU/v0jBIzEvJSdVQcNHk40DKMnkbMTGCbLJMbkksyyVjQvIFjHTN7LQNzIwMlAwtTIxtTK2VAjwZeMGuYyNB2IuL5Bi8c3MzuQGAKMwsey9AAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuQwe6Rn5aWm5jHxgrk8AUU5edk5qUqFKcWZaYWs7EBxRhN2diBlChMyiU/v0jBIzEvJSdVIYiNAyjF5GzExgmyxzG5JLMslY0LyBYx0zey0DcyMDJQMLUyMbUytlQI8GXjBrmLjQdiKi+QYvHNzM7kBgCwItVyuwAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuQwe6Rn5aWm5jHxgrk8AY7GpgaGBiZuRoYGTiysQGFmEyM2dhBprkl5im4ZeaUpBYpOOeXpRaxcYBknY3YOEFWOCaXZJalsnEB2SJm+kYW+kZAExRMrUxMrYwtFQJ82bhBTmLjgZrIC6RZfDOzM7kBIFZvercAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweuYk5Oap+BUlJiSk1rJxgoU4jA0N7PUDXA0YWMD8hhN2diBlHBAfnlqkUJwaUFBTqWCb35KaU4qGwdQgsnZiI0TZItjcklmWSobF5AtYqZvZKFvZGBkoGBqZWJqZWypEODLxg1yFRsPxExeIMXim5mdyQ0AgyEVQ7kAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweuYk5Oap+BUlJiSk1rJxgoU4jA0N7PU9XczYmMD8hiN2NiBlIhjXmJOfrqCf2lJQWmJgm9+SmlOKhsHUIbJ2YiNE2SNY3JJZlkqGxdItZm+kYW+kYGRgYKplYmplbGlQoAvGzfIWWw8EEN5gRSLb2Z2JjcAVB/MuroAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweuYk5Oap+BUlJiSk1rJxgoU4jA0tzTR9XcyYWMD8hgN2diBlKhLZnpmSWKOgn9pSUFpiYJvfkppTiobB1CKydmIjRNkj2NySWZZKhsXkC1ipm9koW9kYGSgYGplYmplbKkQ4MvGDXIXGw/EVF4gxeKbmZ3JDQD5SfuPuwAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweuYk5Oap+BUlJiSk1rJxgoU4jA0tzTR9XeyYGMD8hgN2diBlKhLZnpmSWKOgn9pSUFpiYJvfkppTiobB1CKydmIjRNkj2NySWZZKhsXkC1ipm9koW9kYGSgYGplYmplbKkQ4MvGDXIXGw/EVF4gxeKbmZ3JDQAC2skAuwAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweuYk5Oap+BUlJiSk1rJxgoUYjc0NzXT9TNiYwMpNDQwYmMHGeecWJSiEJyTX6LglgnUU8TGARRlcjZi4wTZ4ZhcklmWysYFZIuY6RtZ6BsZGBkomFqZmFoZWyoE+LJxg9zExgMzkhfIYPHNzM7kBgCTLgp3uQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOywrCMBDsy/VRCx78gJw8KW2jVest8aAglWJ7l1pzCMYGtBT8et3gwO7MDgOzlm1Z1hdh2GBixBgHHFzD4pTHKbsWB3DxdDkrwEMRMKVEQ/iruivxgR5afrxJ1ouSn48hA0DDTqGPNCvF6ymbShGudP2Yk4t46q66KTEnNCK5fstW6gYGmHX2FIamm9Wt7ASMUE/XId2GNMJsslslu2VK8gx88yuM/zUBkpfJh/R/108iUc8AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweuYk5Oap+BUlJiSk1rJxgoU4jY0NzXT9XQyNtJ3YmMDCjAasrEDKRGXzPTMksQcBc+8gtISBd/8lNKcVDYOoAyTsxEbJ8gmx+SSzLJUNi6QajN9Iwt9IwMjAwVTKxNTK2NLhQBfNm6Qy9h4IIbyAikW38zsTG4ArMduqb0AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweuYk5Oap+BUlJiSk1rJxgpSamhuaqbr72RsxMYG5DIasbEDKVGXzPTMksQcBf/SkoLSEgXf/JTSnFQ2DqAUk7MRGyfIIsfkksyyVDYuIFvETN/IQt/IwMhAwdTKxNTK2FIhwJeNG+QwNh6IqbxAisU3MzuTGwCfIItNvAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweuYk5Oap+BUlJiSk1rJxgoU4jA0NzXT9XezYGMD8hgN2diBlIhjXmJOfrqCf2lJQWmJgm9+SmlOKhsHUIbJ2YiNE2SNY3JJZlkqGxdItZm+kYW+kYGRgYKplYmplbGlQoAvGzfIWWw8EEN5gRSLb2Z2JjcAiGJ2AboAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweuYk5Oap+BUlJiSk1rJxgpSamhuZqnrGWhoxsYG5DIasrEDKRGXzPTMksQcBc+8gtISBd/8lNKcVDYOoAyTsxEbJ8gex+SSzLJUNi6QajN9Iwt9IwMjAwVTKxNTK2NLhQBfNm6Qu9h4IIbyAikW38zsTG4AAE/PBbsAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweuYk5Oap+BUlJiSk1rJxgpSamhuZqnr72bhzMYG5DIasrEDKRHHvMSc/HQF/9KSgtISBd/8lNKcVDYOoAyTsxEbJ8gex+SSzLJUNi6QajN9Iwt9IwMjAwVTKxNTK2NLhQBfNm6Qu9h4IIbyAikW38zsTG4A4UWqC7sAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWOzQqCUBCF/Z0yDVq0qdV9gYvjTSXd6V24KEHwAUJF5GI/i6TXr7l0YOZ8w4GZMUzDML4k7Vo7DQEVWNS89tJEWXFrK7BptMuiBYfAleo9vMAlPNQFl+WVx1jxBGXNU0QuRJQiAMWmgBXZsV26YVbPicmuv48sweHBYpx6tcCacksK8PTVYljUZ4QN8T4NxTkUKJAleZzkp4w1Nfj6Swj+q7dkTq1m5f8AvtHHwMkAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweqcWZycz8YKZEq6+zjrhtgqaBTo51kpGBvoGhiaGAJJY002NqA0owUbO5ASD3YLUAgpSswrTk7NLEstUvDNTynNSS1m4wBKMjkbsXGCrHRMLgFKsnEB2SJm+kYW+kYGRgYKplYmplbGlgoBvmzcICey8UDM5QVSLL6Z2ZncABTqEDnGAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweqcWZycz8YKZMq6+zjr+njoBvu62CpoFOjnWSkYGugamRmZ6hoYarKxAZUwGVmwsQNp8WC3AIWQosS84uTUzLLUIgXf/JTSnNRiNg6QImcjNk6QvY7JJUBJNi4gW8RM38hC38jAyEDB1MrE1MrYUiHAl40b5E42HqjBvECaxTczO5MbALWSw0TMAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC5zgFMYGwuI4ejkxMYKUulsFBxspGto4KRrZMDGBhRhNGJjB1K8Ifnp6TmpCsHlmSXJGWwcQCEmZyM2TpDJjsklmWWpbFxAtoiZvpGFvpGBkYGCqZWJqZWxpUKALxs3yCVsPBDTeIEUi29mdiY3AM932n+tAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnE6OEYYmjvHB7mzMQC5zgFMYGwuQweLo6+zJxgpkcQS7GBsamJi6srEBeYyGbOxAStE3PyWptFg3xDlAIbgktaAgtUjBMy8ltSK1SN+lKLMstYiNA6iMydmYjRNklWNyCVCQjQvIFjHTN7LQNzIwMlAwtTIxtTK2VAjwZeMGOY2NB2IDL8gBvpnZmdwAG/FDtb4AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECEndKTM5ILAISbKwgrqmRgaGukYGRARsbkMtoyMYOpMTcE4sVglPzivOL9EOKEvOKczNLSlKL2DiAckzORmycIFsck0syy1LZuIBsETN9Iwt9kCkKplYmplbGlgoBvmzcIFex8UCM5QVSLL6Z2ZncAMSVEum5AAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZLA65eQnZ7OxApncwSGuoQqGBgb6JhZsbEABRkM2diAlDVai4Fmcn5NYkpmXrhBSlJhXnJZflJtaxMYBVMDkbMTGCbLIMbkksyyVjQvIFjHTN7LQNzIwMlAwtTIxtTK2VAjwZeMGOYyNB2I2L5Bi8c3MzuQGAMBpRD68AAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZHA4lRYX5ybm5bGxgpS7+PrqmpjoGxoY6AaxsQFFGI3Y2EESbqXFqQpp+UUKQBVsHEARJmcjNk6Q6Y7JJZllqWxcQLaImb6Rhb6RgZGBgqmViamVsaVCgC8bN8g1bDwQw3iBFItvZnYmNwBLj+zIsQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOyw6CQAzkZRXBxIMfsB8gsqxikBsKN0lMNp4NIpENuhrc6OdrNzZpZybttDVMwzC+GBp1TDXxMcHC4vJsX/DTNuNgo7Q1cXQzD25CdjDQM3nBg4jSJAdAaUYwRFgc5b2S1bW5kEK1TS8bRfhHqLolCXk+ejUnEQ3RVp6FCl8wQo+1Y+Dq7VmtxLuBMfLZOmRJyCijJE5XcbrckEMJnn4V/P+5CYJTik54P71ybpLOAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZLB6Rnj6ubOxgpiBEUYmFmxsQCajERs7kNL0zEspLS4pykzMUQjIKU1XMArQdlUwNHPUNfPQNzIw0DUyNQhT8AwwMWHjACpncjZi4wRZ6JhcklmWysYFZIuY6RtZANUaGSiYWpmYWhlbKgT4snGDHMjGA7GJF0ix+GZmZ3IDAKzdb/nEAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZLB4p+aksrGC1AeH6IZYmLrquvo660YEGZqwsQFFGQ3Z2IGUeEhqbkFqUWJJaVGqQkhRYl5xbmZJSWoRGwdQksnZiI0TZJFjcklmWSobF5AtYqZvZKFvZGBkoGBqZWJqZWypEODLxg1yGBsPxFxekPW+mdmZ3AAi3Y1JvAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYYWjvHB7mzMQC6zk2MwGwuIEeTtycYKZLAHhOqGlCalsrEBOYwWbOxAStE5JzWxSCEgVAEko5CWX6QAVK7gYaTgXJmTmZeSWsTGAVTG5GzExgmyyDG5JLMslY0LyBYx0zey0DcyMDJQMLUyMbUytlQI8GXjBjmMjQdiAy+QYvHNzM7kBgA4y15TvAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZLC4lRansrECWUymjmxsQJrRkI0dSLGbOiqA5ThAcs5GbJwgoxyTSzLLUtm4gGwRM30jC30jAyMDBVMrE1MrY0uFAF82bpDVbDwQc3hBFvhmZmdyAwBvzDu6ngAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZLCH5mXn5ZfnsbGCOC5hnrph7o5sbEAOoyEbO5ASAYophPgrAIUVnP39wlyDQvyD2DiAMkzORmycIPMdk0syy1LZuECqzfSNLPSNDIwMFEytTEytjC0VAnzZuEHuYeOBGMoLpFh8M7MzuQG/F8fTswAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZLC4uPr4sLECWVyh3rrOhsa6hgaObGxAPpOJGRs7kFYOyC9PLUrOL0pRCPVWCMgpTVcoyVcAqlTQMDI1CFMAqtdk4wBpcDZi4wTZ55hcklmWysYFZIuY6RtZ6BsZGBkomFqZmFoZWyoE+LJxg9zHxgO1hBfkDN/M7ExuAG2n2vjEAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZLC4uPr4sLGCVIR66zobGuuaOrKxAbmMhmzsQEopIL88tSg5vyhFIdRbISCnNF2hJF8BqE5Bw8jUIEzB1FGTjQOojsnZiI0TZJljcklmWSobF5AtYqZvZKFvZGBkoGBqZWJqZWypEODLxg1yHBsPxApekBN8M7MzuQHgGhcdwAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZLC4uPr4sLECWVyh3rrOhsa6hsaObGxAPqMFGzuQUg7IL08tSs4vSlEI9VYIyClNVyjJVwAqVNAwMjUIUwAq12TjACpkcjZi4wRZ55hcklmWysYFZIuY6RtZ6BsZGBkomFqZmFoZWyoE+LJxg5zHxgOxgxfkCN/M7ExuAHSlXPnCAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZLCH5mXn5ZfnsbECOdwBiSXJGQrJGflFKWxsQAFGQzZ2IMXv7BiiYKagq2CoZ6bgGxLExgEUZHI2YuMEGe+YXJJZlsrGBWSLmOkbWegbGRgZKJhamZhaGVsqBPiycYOcw8YDMY8XSLH4ZmZncgMAGyWCbLIAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECZLAE5+dVsrECWazOLrpB4WxsQCajERs7QoQDyGRyNmLjBJnlmFySWZbKxgVki5jpG1noGxkYGSiYWpmYWhlbKgT4snGD7GbjgZjCC7LBNzM7kxsAtGuXw58AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYbGjvHB7mzMQC6zk2MwGwtI3DczuSi/OD+thI0VyGW1NDQ0NGBjAzIZDdnYgZSYr2eQs3+wv1uIQkCQv5erc4iCkYGhMRsHUI7J2YiNE2SDc05+cWoKGxeQLWKmb2Shb2RgZKBgamViamVsqRDgy8YNchEbD8RYXiDF4puZnckNAHfE9ve1AAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQwRHu6adraWiowMYK5HFDefoBQf5sbEABRkM2diClCFMVEOTp6xgUqaARbmBuaG5oZmhsYGjhbGipycYBVMbkbMTGCbLROSe/ODWFjQvIFjHTN7LQNzIwMlAwtTIxtTK2VAjwZeMGuZCNB2IDL5Bi8c3MzuQGAPttp+HFAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQwRHu6adraWiowMYK5PFBefoBQf66Hk5sbEAxRkM2diClAFPo5OjsHRqgoBFuYG5obmhmaGxgaOFsaKnJxgFUxeRsxMYJstM5J784NYWNC8gWMdM3stA3MjAyUDC1MjG1MrZUCPBl4wa5kY0HYgEvkGLxzczO5AYASJksDMcAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMGOPq7B8U6OwWzMQC4ziMECFk/OyEvNTEktYmMFqfX1c9INM2RjA7IZDdnYgZSEr6dzkL+fa4iCk6NzXmqJggZEjSYbB1CWydmIjROk0TG5JLMslY0LyBYx0zey0DcyMDJQMLUyMbUytlQI8GXjBjmKjQdiMC+QYvHNzM7kBgBnVR+KuAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAC1OywrCMBCsVddHK3rwAxbxWowx2setVLGCQsGDeJKgBYPFig2KX68bcGB3ZhaWGatmWdaXYNhgYIRLAzatzmGznYbxab+GOtl6kq2hQaKf5u8i19rL5Pkmnxdo0rEbchYI4THmA5C3uYAW8TjNkIsR7sq70uWzQg9X3J/hqlA6x6WqHoX8QNt8pFPomOz4rNUrhy7p4WLCgwlnnOE8En7EFpjtwDFdwf2n9EzV5CpLPCp5d36Futnk1QAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAC1OywrCMBCsr/WNHvyA/QC1NcTnrfTQKgoFQdGLxBoxVBvQ4OPrdQMO7M7MHmbHyTmO8yVYtmhb0aCBPK3qdr4cTP3DOoQC2UIQh1Ak0Yrk6yqN6cUiScX9BCU6lnm0YJ6/ASCTZxzKxOMoxj3HkONW39OHEUbpDHt41G/5QJ1dP128ieSiMrLCoD6fVSL7CBUbEnCo2i5+YtRTQo10Z+Syics85uFwxsczb4TxCuq2OzT+j5u2enARGndKZPUf1XOmSuUAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOyQrCMBBNXUbrAh4ErzkqRapx7y1qq6CF0goeJWgOhdpCuvy+TvTBzHuzMY8YhJAPQrPGQIseBtQwmdElmO/4IzpBHcv6nkfQ0Ftu+lIyz6lFz6LMpYImdkeeH7LZlPNg79+P7t1zmRUuww0ADg0GLSTLj58qo0GcZAX97dOrrGRCb0qk+TsuCqnoOBQvoSbQxoPagYGp/fBnEVcSOqiHa5ttbTbD45Wz3DiLHQ186Gr/0Pv/6msdiXcpk+4XRHIHZ+UAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACWO3QqCQBCFtZ+p/IEueoB9gKR1rdy6U4kuQhC2i+5Cci+ETcU07OlrlgZmzncGhjmGaRjGF0urrqUGBxtGOBbikvk8uoszjNGO40jABMGNlJKVF7d5oeQHpriy/JAHXnqj/AqA3mQwQ1mLrs27ciCcUkqSumlkS05Dk1evsq5IWhe9kmvCvaZuO5jjxShhsNABokdXviVYyKv9hvENo4yS3XEbHoMDyVKwdWBw/s9czSJ/9lLZP22VB8HWAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQwe6Rn5aWm5jHxgrksIS4BpiwsQFZTIYGbOxAWsS/tCQntUTBLTOnJLVIQde9KDMnh40DpMLZiI0TZLpjcklmWSobF5AtaqZvZKlvZGBkoGBoYGVgZGVoquDoy8YNcg4bD9RYXhAnODG3NDWHGwA7YZSPtQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO2QrCQAysVqP1AMEfCL6K2Grr0bfVVlvsRXerj1JEVPAArf6+ZnEgmZmQkFFKiqJ8CZIlOlK0qKBMTeObxJizPV+DSlZdMA4VEjWe317v+wmqclvL2GBipdnU1HUAmpQsqBFZE6uHmecgD1kqMHAdFFsc4Cp1XdyxIMAwziKBffQjLsgz4ccR1Om07BmgyRTsUFw+R2iQ7k6H4+FIH+lo2mPDNmaYhNCUoaH1f9qWkZfn/Hl9FMWx+QPlaJmc3QAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO2QrCQAxcr2itguAPBF9F7NouHm+r1gPbKt2tPkoRUcEDtPr7msWBZGZCQoblGGNfgmGDhhE1KshTs9Rqw4dyr+ZQIFsYSwVFEmWV3l7v+wlKZttKZEeIOOl7jgNAkxyHMpEQooXJYooqlLHGwJ+i3mIHZ7Hv404GAYbrJNLYxmWkNHmpl+sIKnSaX3CwTAp5yC6fI1RJN/tdt9tzeg56I5eP+AA3IdgmNNT+T+sm8uScPq+PLDvaP6hOBvjdAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQwRqSWZKYx8YKZLIHuzspmBgYsLEBOYxmbOxAijckTCE8MSdHwTe/NK+EjQMoxORhyMYJMtYxuSSzLJWNC8gWNtc31jcyMDJQMLEyNrQytFAI8GXjBrmCjQdiGC/IDc4ZiUU5+SUlqdwAuvG8n64AAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO0QqCQBA807ZMg6Af2A9I9M6D0jc1KBDBOKTHkBASJEOOfr/2cGB3Z5cZZpnFGPsRzDTYGeJTwYKaq8qaJ9lDXcCm1c4zBQ4R59wNAyyJeXcum1jw5EYaoIMlYUXjYBTYDHpq1audPhgLlCU2Kg8KrMZ3r8cJA5ytsCbH4srBNcHZU/ffDjbE98cwDkUkIpRpzFN+wroCz/wJ/py1NV8WlDCMWnfeHy8+9mvQAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweKSmpPDxgpiBZmYGLCxAVlMhkZs7EBaNCC/PLXINSU9VQEkpxCcWlSWWsTGAdLv42vExgky3DG5JLMslY0LyBY21zfWNzIwMlAwsTI2tDK0UAjwZeMGuYWNB2osL8gpzhmJRTn5JSWp3AACUlsntQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweKSmpPDxgpk8QUUpSZnFmfm5ymYWxoZsLEBxRiN2diBlCyqlEJQYnK2QoRziL+CU2JxKhsHyEAfXyM2TpBtjsklmWWpbFxAtrC5vrG+kQFQh4mVsaGVoYVCgC8bN8hxbDwQ03lBTnPOSCzKyS8pSeUGAOAWojLFAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO2wqCQBTUrFOmQtEPbB8g7mpR9rZesNAVUaPeIkookIKQoK+vszQwZ+bMy4yiKoryRUiVmEhjIqGHR6/Sgvn8VCWg4asFvII+Gou3bfMgwet8bZsPDDCa+ssFs2tR2pRR+5iVAgBjlcEQZV5vd7ngOU/ikjBKyjja56TgYUpEHJHKOcBIFmTCBV2280t3fzcwRj9bOZ7jUpeSxcZjG7YmhQBDjgXz32DJqeHt/GqfXdcYPxErOUPVAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOTQuCQBRctZ6ZBkF/YK+d/ITM29ahwAxpDx3DcqEFU3A16NfXWxqYNzOXN0MMQsgXoVVjqY2HBBOPw/My3LIbP4CF0doxDhM05rGEKap9ji9pyhgABiMBG2W9G5VshVKUN/JFr7IXjU65+Ny7qq9p1da06EYlYKZ/nooIHF3IHoN8C5ijX2382I+CKKBJFodZmNKyAFfvA+/ftNDr9s+qb7phEO4PFWzX0cgAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweQRwMYKpFlCzI0N2NiALEYTNnYgxR2SkZmn4JyTmZpXwsYB0uLja8TGCTLPMbkksyyVjQvIFjbXN9Y3MjAyUDCxMja0MrRQCPBl4wZZz8YDMYsXZLlzRmJRTn5JSSo3AKS5nninAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAC2OywrCQAxFR6vRWgXFH5iVGxftjIKPXS2+sIVCP0CGGrCgVTvT/r5mwAtJTrLIvazFGPuS7LQaWxhSQZuam11SsQmv2REcWp1dmEGHYLIvbxVqzef8pGqtsYIunbuH5CwFAGFbSOjRnEXqrfLCqDJHHmODD/5EpesKn1gaHhefusjVG/r2fZxIcK13mJuiQRgQT1f+wpeBDPhyuxBbseZpAp6NCsO/z8gmje6qeryMQe8H/538ndQAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOXQuCQBDUzO1Dg6A/sD/AIz2PSt9MyocshAvqLUSkBEHII+rX1y0N7M7sssuMYRqG8dUgJsxJuLpgoNtEHoogSm4yA0uP1jaRMNTCTpu+6sCmh4tkKY9W/pVxcZYsB9BbU8BIE0tLVbafXiFdsCtygVlz33ko8I1BhnJfeJgnJ9yWfQ1j8siPHCYUIKlU86phqvVivQyX3Oc+ijgM4mCDxREcygvu321GadNH+Ww7pWrnB1r0h+LYAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO0QqCQBDUzC3TIugH9qFX0TuLrDc9SqKEg3voMUSEBEHQI+jra48Gdmd2F3bGsi3L+hIMG6yNCKhgQs1TN8mO2VMV4NDo5JmCKQlXtGPdg0ty9VChSNJ9HDKuQgVAO5vDjGgrKl11n1GjuSPjKPtBY3FGdZF4lZhXYwNz8/hecvCMa1br9t3AgvTmECURj3mMu1PCTixFWYJvQkLwN1maiOJVDV2vdeP/ACorSnfNAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnMHeAYaWjvHB7mzMQC6zk2MwGwuQweqcWZycz8YKZPIGhAfpOhvqGpsahDs6s7EBhRiN2NiBlCRESCEgvzy1SCG4tKAgp1IhuCCxKJWNA2SYj68RGyfIJsfkksyyVDYuIFvYXN9Y38jAyEDBxMrY0MrQQiHAl40b5DA2HojJvCBnOWckFuXkl5SkcgMAR7c3tMEAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVP22rCQBCN1Y6NWij4A/MDkovai28xhOJly2LEV1njFheSXchu/P06Sw/MzJlhbifoBUHwR/DR482TCRk8kQvLHU++snP5DX1K++ushAGRIW+NNb8Onn03O22W78WM/RTHAwBVegsYUtgyc710Fo85jzYcmbBOtlFZi7vEQt+EruQVc9M0nVaVcMpopImulqg0HmRjnMT8JqxVFl78+T1LIfS/ZZVTdwkj4tOPaB6lcRrjYjVPVskncgZjLwUm/6+8eiG0p62Nc3L8AAsC/lDzAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVPXWsCMRA8tV21Win0D+w/MImFVt/iPWgpBwd36KMsR9RA7oNc7N/XDQ7s7sw+7M4kgyRJ7ow4Iz4imXPBkNu0+MvlWp+KHYxYjra6gBcm4wPZnhzBK4tFmR3XQsmt1EJoBcC7gYIxj9/S1J3xFG7e4JGcw6y9NQFLT01f2xCMx3PrcW8vV8yNZ15TUxncH3SK1HXOVhRs2/Qw4XPDVME0etNVsP8G3ph/fi9XSyWUwK/NSm7kD+YZzGIUmD+NvMcg6ZW8a/nh7AG/bnFf8wAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEADVOwQqCUBC0rLXSIOgH9tIpsXwaZXSxgoQQQqWO8Qgh4WmhFvRZ/UI/VvsODezuLAwzozQURfkS5JUYSGLQQJNWN94fbM8/xztQ6VXXfgwtItqRZxUXHNpSGYQnj20BpIJ5M9CIrKIAx5jgiQuB+e1R1JiUvKjyrK7T0sTP27bmOIoCE13LstgUc9/EbVbdBX9BhxyaGwZdae9f6uyZQo/4cD5xJmxKanfp2Et7gYcQdNkbjH96X/beXHkpbhSl/wDMGXeB4gAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVPUU/CQAweoEUEEhP/QJ+MJrewOzYgvI3TMKJEAy++mctW48K5JeV48NfrnXxJ+31t0+Zr1Imi6NcjcMBNECMf0PVpoF93cv78sV9Dz5e9p7sNXHgxzq2lBldsKks/cBlaMk3WcTEr0vhRKgDf6ijoe3oPE4xx29qKKtTmSKhrLk+1EysmcyAWWOAnm28SOMvwkAt82W/wniyVjtumLh8E7owL2ydmahxKleVw5a93dQaD4Ffb9kgVXHt9O59MJypRCabLqVzKBb5tYRjeg9HZ1/j/uS/DtnWOhn/FHkAEBwEAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnO5OPkYGjvHB7mzMQC6zk2MwGwuQweKSmpPDxgpkcfi7+ioEmRgbsLEBeYxGbOxASgokrRCQX55a5JqSnqoQnFpUlloEUcYBlGdyNmLjBNnhmFySWZbKxgVki5jrG5rpGxkYGSgYW5kCkaFCgC8bN8hNbDwQo3mBFHtwRqZCeGomNwC4BnzQugAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAFVOTQuCQBD1qzHToEM/YA8Fddp1Q4tuauAlQdCoW4QstCQaKvXza5ZODTPz3gzzZkbTNU37oClUNlPEwwADk5PGR86ia5GCiaUZRwVYSKyDqGsYIVvknahkL9uGBDvOSFaSi2gb6odpTHkZ0zzkDAAndR9shKWSkue/KslPZPVuu0c/3AbsrmGMo0bCwVGvRNUgXwImyOdbXE05Q9FmH6D7JM/AVa+D97syRbCLuyRnId0vfmiGTeEAAAA=</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnO5OPkYGjvHB7mzMQC6zk2MwGwuQweKSmpPDxgpSFmBkbGjpwcYGZDMasrEDKQWQpIKRsZJCbn5eZkl+kUIaEJfnF2UXlySWZObnsXEAVTE5G7FxggxwTC7JLEtl4wKyRcz1Dc30jQyMDBSMrUyByFAhwJeNG+QuNh6IBbxAij04I1MhPDWTGwByvItlvgAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnI7hwUYGjvHB7mzMQC6zk2MwGwuQwepSXplaxMYKZHKEuOr6+bnourCxAXmMFmzsQEolPDEnRyE3vzSvRKEkNbdAoTg1rzi/SCEgxNDAQME/I1chKMSFjQOoksnZiI0TZJ1jcklmWSobF5AtYq5vaKZvZGBkoGBsZQpEhgoBvmzcIOex8UAs4QWxPVKL0hLzuAHEOoM8xAAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMHiBmYwISnI7hwUYGjvHB7mzMQC6zk2MwGwuQwepSXplaxMYKZLKHBIfoGpgYsrEBOYwWbOxASsglMz2zJDFHoSQjtSg3v7gksYSNAyjO5GzExgky2zG5JLMslY0LyBYx1zc00zcyMDJQMLYyBSJDhQBfNm6QW9h4IEbygtgeqUVpiXncAPA8gPyxAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVO0QqCQBA8szZNhR566e1+QDyOq9C3UyKklCDxNaQOEg4DC6uvrz0a2J2ZXZhdYhFCvgjDBnMjfCwYYXOLbM9Zfj7twEZrH9MaxigCqbXqwrRvrlp9YIIjZ80Zq8JSAqCzVjBFWtaqfzR1q140vb9pdWs7mh3ybVmBg+tRJsA1t+Tl2Q4KZqgXm4iLiDPOaJwIkYiYygI88xv4/+QAySuUHjCtajrq/QABu5HmxgAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEACVOXWuDQBA0sd18aKAP/QH7B4LHcW2jbxcppQRBMNjHcph9EA6V0yTNr0/26MDuzOyy7ASzIAjuDM8eL17EXDDntirygxTfv9UXhGzDcl/DE4uNtpa67d6Zk6UbPPNo/S6FqLdFWSkA9rM3WDDtanKjqVu6om4aGsfe3VDn+Pk3keuMxbK/ksPqPAyWFyczTL3DVPzAkq/nuYKVD6Obqb0QrFm/fiRSJVJIgWmmVKZS1AVEPjzE/483TFFB9tJ2eDQdRg8M76ft5wAAAA==</BinaryElements>
+					</Array>
+				</p.Data>
+				<ArrayBehavior ElementType="String" IndexEditorWidth="42">
+					<p.DefaultElementValue>""</p.DefaultElementValue>
+				</ArrayBehavior>
+				<Literal Bounds="48 2 40 15" DataType="String" Id="fc03ad703fdd4397945cdba2b2f7b0a7">
+					<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+				</Literal>
+			</ArrayLiteral>
+			<NodeLabel AttachedTo="e656668c32fc42f1aa11a5facf1bb74e" Bounds="136 249 69 18" Id="15cfe710c69c4d9ea1b47c345cb4e375" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>DB_Table</p.Text>
 			</NodeLabel>
-			<Wire Id="1997" Joints="N(1127:Value)|(910,55) N(2001:o0)|(916,55)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Comment Bounds="450 210 135 15" Id="2005" xmlns="http://www.ni.com/MocCommon">
-				<p.Text>Call the Web Service</p.Text>
-			</Comment>
-			<Comment Bounds="925 285 245 15" Id="2007" xmlns="http://www.ni.com/MocCommon">
-				<p.Text>Populate data grid with earthquake date.</p.Text>
-			</Comment>
+			<Wire Id="6dc93ada4a364ebc8aeb328e497f4f33" Joints="N(e656668c32fc42f1aa11a5facf1bb74e:Out)|(230,275) N(c9f32956ac054e7d926749ce8656ce75:o0)|(281,275)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
-		<HtmlFrontPanel Height="[float]1300" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" UpdatedRootPage="[string]&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&quot;en&quot;&gt;&#xA;&#xA;    &lt;head&gt;&#xA;&#xA;        &lt;meta charset=&quot;utf-8&quot;&gt;&#xA;        &lt;!---Read only section. Source panel edits to these document properties will not be persisted--&gt;&#xA;        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xA;        &lt;title&gt;Main&lt;/title&gt;&#xA;        &lt;!---End read only section. Additional scripts or document properties can be added outside this section--&gt;&#xA;&#xA;        &lt;style ni-autogenerated-style-id=&quot;&quot;&gt;&#xA;            /* Read only section. Source panel edits to the content of this style tag will not be persisted */&#xA;            &#xA;            [ni-control-id='2'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                height: 1300px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 30px 30px 30px 30px;&#xA;                width: 1000px;&#xA;                --ni-max-width: none;&#xA;            }&#xA;            &#xA;            .ni-front-panel-wrapper {&#xA;                min-width: 1000px;&#xA;            }&#xA;            &#xA;            [ni-control-id='3'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(255, 255, 255, 1);&#xA;                left: 2px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                top: 49px;&#xA;                font-size: 64px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                width: 996px;&#xA;                height: 200px;&#xA;            }&#xA;            &#xA;            [ni-control-id='4'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 384px;&#xA;                left: 2px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                top: 795px;&#xA;                width: 990px;&#xA;                font-size: 27px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-template-id='15'],&#xA;            [ni-control-id='15'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 24px;&#xA;                left: 0px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;                top: 0px;&#xA;                width: 10px;&#xA;                font-size: 27px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-template-id='13'],&#xA;            [ni-control-id='13'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 35px;&#xA;                --ni-overflow-x: hidden;&#xA;                left: 0px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                top: 0px;&#xA;                --ni-overflow-y: auto;&#xA;                width: 10px;&#xA;                font-size: 27px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-template-id='17'],&#xA;            [ni-control-id='17'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 24px;&#xA;                left: 0px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;                top: 0px;&#xA;                width: 10px;&#xA;                font-size: 27px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-template-id='19'],&#xA;            [ni-control-id='19'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 24px;&#xA;                left: 0px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;                top: 0px;&#xA;                width: 10px;&#xA;                font-size: 27px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-template-id='20'],&#xA;            [ni-control-id='20'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 24px;&#xA;                left: 0px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;                top: 0px;&#xA;                width: 10px;&#xA;                font-size: 27px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='11'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: auto;&#xA;                left: 2px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                top: 775px;&#xA;                width: auto;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='10'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 144px;&#xA;                left: 516px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                top: 80px;&#xA;                width: 464px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='22'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: auto;&#xA;                left: 516px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                top: 60px;&#xA;                width: auto;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='21'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 408px;&#xA;                left: 2px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                top: 310px;&#xA;                width: 408px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='24'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: auto;&#xA;                left: 2px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                top: 290px;&#xA;                width: auto;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='23'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 36px;&#xA;                left: 340px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                --ni-text-align-as-flex: flex-end;&#xA;                --ni-text-align: right;&#xA;                top: 732px;&#xA;                width: 89px;&#xA;                font-size: 27px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='26'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: auto;&#xA;                left: 340px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                top: 712px;&#xA;                width: auto;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='25'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(0, 0, 0, 1);&#xA;                left: 116px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                top: 732px;&#xA;                font-size: 29px;&#xA;                font-family: Lucida Sans Unicode, Lucida Grande, Lucida Sans, Geneva, Verdana, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                width: 208px;&#xA;                height: 36px;&#xA;            }&#xA;            &#xA;            [ni-control-id='27'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                left: 550px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                top: 310px;&#xA;                font-size: 16px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;                width: 396px;&#xA;                height: 280px;&#xA;            }&#xA;            &#xA;            [ni-control-id='28'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(0, 173, 239, 1);&#xA;                height: 40px;&#xA;                left: 2px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                --ni-text-align-as-flex: flex-start;&#xA;                --ni-text-align: left;&#xA;                top: 260px;&#xA;                width: 920px;&#xA;                font-size: 21px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='29'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: auto;&#xA;                left: 2px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                top: 240px;&#xA;                width: auto;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='42'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: 100px;&#xA;                left: 2px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                top: 49px;&#xA;                width: 100px;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            &#xA;            [ni-control-id='43'] {&#xA;                --ni-border-width: 0px 0px 0px 0px;&#xA;                --ni-foreground-color: rgba(43, 48, 51, 1);&#xA;                height: auto;&#xA;                left: 2px;&#xA;                --ni-margin: 0px 0px 0px 0px;&#xA;                --ni-padding: 0px 0px 0px 0px;&#xA;                top: 29px;&#xA;                width: auto;&#xA;                font-size: 12px;&#xA;                font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;&#xA;                font-style: normal;&#xA;                font-weight: normal;&#xA;                text-decoration: none;&#xA;            }&#xA;            /* End read only section. To add additional styles, add a new style tag after this one. */&#xA;        &lt;/style&gt;&#xA;    &lt;/head&gt;&#xA;&#xA;    &lt;body&gt;&#xA;        &lt;div id=&quot;ni-outdated-browser-message&quot; style=&quot;display:none&quot;&gt;This browser is missing features needed to run this web application. Open this web application in a supported browser.&lt;/div&gt;&#xA;        &lt;div id=&quot;ni-failed-to-load-vireo-source&quot; style=&quot;display:none&quot;&gt;Unable to load required dependencies. Please verify all WebVI files are available and served using an http server or use a browser that can load files directly from the filesystem.&lt;/div&gt;&#xA;&#xA;        &lt;div class=&quot;ni-front-panel-wrapper&quot; vi-ref=&quot;&quot; ni-control-id=&quot;FrontPanelWrapper&quot;&gt;&#xA;            &lt;ni-front-panel control-resize-mode=&quot;fixed&quot; layout=&quot;absolute&quot; ni-control-id=&quot;2&quot;&gt;&#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;                &#xA;&#xA;            &lt;/ni-front-panel&gt;&#xA;        &lt;/div&gt;&#xA;    &lt;/body&gt;&#xA;&#xA;&lt;/html&gt;" Width="[float]1000" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
-			<Label Height="[float]16" Id="3ec5102f7d26427fa410db85514737ee" LabelOwner="[UIModel]11a288ca887e4202ad8087f370ddf883" Left="[float]2" Text="[string]banner" Top="[float]29" Visible="[bool]False" Width="[float]44" xmlns="http://www.ni.com/PanelCommon" />
-			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]200" Id="11a288ca887e4202ad8087f370ddf883" Label="[UIModel]3ec5102f7d26427fa410db85514737ee" Left="[float]2" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=da754a42c7f44b3b9d893738a3aa60a8}" Stretch="[SMStretch]Uniform" TabIndex="[int]5" Top="[float]49" Width="[float]996" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Text BaseName="[string]Text" Foreground="[SMColor]#ffffffff" Height="[float]184" Id="1294" Left="[float]57" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Earthquakes this Month" TextWrapping="[TextWrapping]Wrap" Top="[float]58" Width="[float]360" xmlns="http://www.ni.com/PlatformFramework">
-				<FontSetting FontFamily="Segoe UI" FontSize="48" Id="1295" />
-				<HtmlBehavior ClassAttributes="header-text-bg-blue" />
-			</Text>
-			<LVDataGrid AlternatingRowBackgrounds="[bool]True" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]384" Id="970" IsReadOnly="[bool]True" Label="[UIModel]973" Left="[float]2" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]46" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]795" Type="[Type]@7f6ff7470c374950ba0aa8ca857dd723" Value="{DataItemBinding Id=968}" Width="[float]990" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<LVDataGridColumn ColumnElement="[UIModel]976" ContentFont="1010" Header="[string]Magnitude" Id="971" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataViewerLength]125">
-					<NumericText Height="[float]24" Id="976" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Top="[float]0" ValueFormatter="[string]LV:G6">
-						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1011" xmlns="http://www.ni.com/PlatformFramework" />
-					</NumericText>
-					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1010" xmlns="http://www.ni.com/PlatformFramework" />
-				</LVDataGridColumn>
-				<LVDataGridColumn ColumnElement="[UIModel]982" ContentFont="1016" Header="[string]Location" Id="981" Index="[int]0" IsReadOnly="[bool]True" SortDirection="[ListSortDirection]Ascending" Width="[DataViewerLength]470">
-					<StringControl Height="[float]21" Id="982" IsReadOnly="[bool]True" Left="[float]0" Top="[float]0">
-						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1017" xmlns="http://www.ni.com/PlatformFramework" />
-					</StringControl>
-					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1016" xmlns="http://www.ni.com/PlatformFramework" />
-				</LVDataGridColumn>
-				<LVDataGridColumn ColumnElement="[UIModel]985" ContentFont="1018" Header="[string]Latitude" Id="983" Index="[int]2" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataViewerLength]125">
-					<NumericText Height="[float]24" Id="985" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Top="[float]0" ValueFormatter="[string]LV:G6">
-						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1019" xmlns="http://www.ni.com/PlatformFramework" />
-					</NumericText>
-					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1018" xmlns="http://www.ni.com/PlatformFramework" />
-				</LVDataGridColumn>
-				<LVDataGridColumn ColumnElement="[UIModel]988" ContentFont="1020" Header="[string]Longitude" Id="986" Index="[int]3" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataViewerLength]125">
-					<NumericText Height="[float]24" Id="988" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Top="[float]0" ValueFormatter="[string]LV:G6">
-						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1021" xmlns="http://www.ni.com/PlatformFramework" />
-					</NumericText>
-					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1020" xmlns="http://www.ni.com/PlatformFramework" />
-				</LVDataGridColumn>
-				<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1009" xmlns="http://www.ni.com/PlatformFramework" />
-				<LVDataGridColumn ColumnElement="[UIModel]1141" ContentFont="1140" Header="[string]Depth" Id="1138" Index="[int]4" IsReadOnly="[bool]True" ValueType="[Type]Double" Width="[DataViewerLength]125">
-					<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1140" xmlns="http://www.ni.com/PlatformFramework" />
-					<NumericText Height="[float]24" Id="1141" IsReadOnly="[bool]True" Left="[float]0" MinHeight="[float]24" Top="[float]0" ValueFormatter="[string]LV:G6">
-						<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1293" xmlns="http://www.ni.com/PlatformFramework" />
-					</NumericText>
-				</LVDataGridColumn>
-				<HtmlBehavior ClassAttributes="grid-header-size" xmlns="http://www.ni.com/PlatformFramework" />
-			</LVDataGrid>
-			<Label Height="[float]16" Id="973" LabelOwner="[UIModel]970" Left="[float]2" Text="[string]Earthquakes" Top="[float]775" Visible="[bool]False" Width="[float]71" xmlns="http://www.ni.com/PanelCommon" />
-			<UrlImage Alternate="[string]USGS" BaseName="[string]UrlImage" Height="[float]144" Id="991" Label="[UIModel]992" Left="[float]516" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=989}" Stretch="[SMStretch]Uniform" TabIndex="[int]1" Top="[float]80" Width="[float]464" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="992" LabelOwner="[UIModel]991" Left="[float]516" Text="[string]logo" Top="[float]60" Visible="[bool]False" Width="[float]31" xmlns="http://www.ni.com/PanelCommon" />
-			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]408" Id="1132" Label="[UIModel]1133" Left="[float]2" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=1130}" Stretch="[SMStretch]Uniform" TabIndex="[int]2" Top="[float]310" Width="[float]408" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="1133" LabelOwner="[UIModel]1132" Left="[float]2" Text="[string]map url image" Top="[float]290" Visible="[bool]False" Width="[float]84" xmlns="http://www.ni.com/PanelCommon" />
-			<NumericText BaseName="[string]Numeric" Height="[float]36" Id="1125" Interval="[int]1" Label="[UIModel]1135" Left="[float]340" MinHeight="[float]24" TabIndex="[int]3" Top="[float]732" Value="{DataItemBinding Id=1124}" ValueType="[Type]Int32" Width="[float]89" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<HtmlBehavior ClassAttributes="" xmlns="http://www.ni.com/PlatformFramework">
-					<p.ElementAttributes>
-						<Attribute Name="integer-width" Value="int32" />
-					</p.ElementAttributes>
-				</HtmlBehavior>
-				<FontSetting FontFamily="Segoe UI" FontSize="20" Id="1136" xmlns="http://www.ni.com/PlatformFramework" />
-			</NumericText>
-			<Label Height="[float]16" Id="1135" LabelOwner="[UIModel]1125" Left="[float]340" Text="[string]Map" Top="[float]712" Visible="[bool]False" Width="[float]31" xmlns="http://www.ni.com/PanelCommon" />
-			<Text BaseName="[string]Text" Foreground="[SMColor]#ff000000" Height="[float]36" Id="1296" Left="[float]116" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Location Index" TextWrapping="[TextWrapping]Wrap" Top="[float]732" Width="[float]208" xmlns="http://www.ni.com/PlatformFramework">
-				<FontSetting FontFamily="Lucida Sans Unicode" FontSize="22" Id="1297" />
-			</Text>
-			<Text BaseName="[string]Text" Height="[float]280" Id="1298" Left="[float]550" MinHeight="[float]11" MinWidth="[float]11" SizeMode="[TextModelSizeMode]Fixed" Text="[string]This example demonstrates how to use a WebVI to call the Earthquake API from the US Geological Survey and display recent earthquakes on a web page.&#xD;&#xA;&#xD;&#xA;On the diagram, this WebVI uses HTTP GET to query the Earthquake API for earthquakes from the last 30 days. The WebVI also uses Unflatten from JSON to convert the results from JSON to LabVIEW data.&#xD;&#xA;&#xD;&#xA;On the panel, this WebVI displays a summary of the results in a data grid and a map of the selected earthquake region in a URL Image indicator." TextWrapping="[TextWrapping]Wrap" Top="[float]310" Width="[float]396" xmlns="http://www.ni.com/PlatformFramework">
-				<FontSetting FontFamily="Segoe UI" FontSize="12" Id="1299" />
-			</Text>
-			<LVHyperlinkControl BaseName="[string]Hyperlink Control" Content="[string]Learn more about this example at github.com/ni/webvi-examples" Foreground="[SMColor]#ff00adef" Height="[float]40" Id="1303" IsUrlSameAsContent="[bool]False" Label="[UIModel]1304" Left="[float]2" TabIndex="[int]4" TargetUrl="{DataItemBinding Id=1301}" Top="[float]260" Width="[float]920" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<FontSetting FontFamily="Segoe UI" FontSize="16" Id="1306" xmlns="http://www.ni.com/PlatformFramework" />
-			</LVHyperlinkControl>
-			<Label Height="[float]16" Id="1304" LabelOwner="[UIModel]1303" Left="[float]2" Text="[string]Hyperlink Control" Top="[float]240" Visible="[bool]False" Width="[float]100" xmlns="http://www.ni.com/PanelCommon" />
+		<HtmlFrontPanel Height="[float]768" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<Text BaseName="[string]Text" Height="[float]32" Id="36" Left="[float]212" MinHeight="[float]11" MinWidth="[float]11" Text="[string]On the WebVI Panel, place controls and indicators to respond to user input and display data.&#xD;&#xA;These controls will appear on the web page that is created when you build this Web Application." TextWrapping="[TextWrapping]Wrap" Top="[float]20" Width="[float]516" xmlns="http://www.ni.com/PlatformFramework" />
+			<Button BaseName="[string]Stop" Content="[string]Stop" FalseForeground="[SMColor]#ffff0000" Foreground="[SMColor]#ffff0000" Height="[float]28" Id="369cc0c41ded480db01441d533ae4a25" Label="[UIModel]1e7e9783c3114296a4e7696a397d465c" Left="[float]164" TabIndex="[int]0" Top="[float]692" TrueForeground="[SMColor]#ffff0000" Value="{DataItemBinding Id=df1b728cbe4a437796c00346cfe5c186}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="1e7e9783c3114296a4e7696a397d465c" LabelOwner="[UIModel]369cc0c41ded480db01441d533ae4a25" Left="[float]164" Text="[string]Stop" Top="[float]672" Width="[float]25" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]3d86b3c6d85643c1963db8b6db31cbc8" BaseName="[string]Array" Columns="[int]12" Dimensions="[int]2" Height="[float]456" Id="f5cb9e867ea54c41b84a0b9c762a23c9" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]c620aa709dc6452e9acf9c7cefa27f5e" Left="[float]52" Orientation="[SMOrientation]Vertical" Rows="[int]16" TabIndex="[int]1" Top="[float]164" Value="{DataItemBinding Id=333e271d56954b698cf016d9c75ea8ea}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]937" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>""</p.DefaultElementValue>
+				<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="3d86b3c6d85643c1963db8b6db31cbc8" IsReadOnly="[bool]True" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<Label Height="[float]16" Id="c620aa709dc6452e9acf9c7cefa27f5e" LabelOwner="[UIModel]f5cb9e867ea54c41b84a0b9c762a23c9" Left="[float]52" Text="[string]DB Table" Top="[float]144" Width="[float]46" xmlns="http://www.ni.com/PanelCommon" />
 		</HtmlFrontPanel>
-		<DataItem DataType="@7f6ff7470c374950ba0aa8ca857dd723" Id="968" Name="Earthquakes" xmlns="http://www.ni.com/MocCommon">
+		<DataItem DataType="Boolean" Id="df1b728cbe4a437796c00346cfe5c186" IsLatched="True" Name="Stop" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="String[,]" Id="333e271d56954b698cf016d9c75ea8ea" Name="DB Table" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="989" Name="logo" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://earthquake.usgs.gov/theme/images/usgs-logo.svg</p.DefaultValue>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="1124" Name="Map" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>0</p.DefaultValue>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="1130" Name="map url image" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>""</p.DefaultValue>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="1301" Name="Hyperlink Control" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>https://github.com/ni/webvi-examples/tree/master/Call3rdPartyWebService</p.DefaultValue>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="da754a42c7f44b3b9d893738a3aa60a8" Name="banner" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>data:image/svg+xml,%3C?xml%20version=%221.0%22%20encoding=%22UTF-8%22?%3E%3Csvg%20version=%221.1%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Crect%20width=%22100%25%22%20height=%22100%25%22%20fill=%22%2300ADEF%22/%3E%3C/svg%3E</p.DefaultValue>
-		</DataItem>
 	</VirtualInstrument>
-	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="7f6ff7470c374950ba0aa8ca857dd723">
-			<VariableArray DereferenceType="@91fe1d8c96204ff2bc17369477179d74" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="3331907d675e4eafb8c1d9f5ee4ae989">
-			<Attributed AttributedType="@346fe89b8594487687c8d548c78eaa70">
-				<AttributeValues>
-					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
-					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
-		<p.TypeReference TypeId="c5b81ec0596944eaa865bbc32b72f3aa">
-			<VariableArray DereferenceType="@53b00ffe7cc04677955658e4f2b4dd7b" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="53b00ffe7cc04677955658e4f2b4dd7b">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="map url" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="location" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="latitude" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="longitude" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="depth" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="magnitude" DataType="Double" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="91fe1d8c96204ff2bc17369477179d74">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Location" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Magnitude" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Latitude" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Longitude" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Depth" DataType="Double" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="3a707364bf6c4107a721b6e50de3af42">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Source" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Type" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Time" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Index" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.Controls.Runtime.NumericTextBoxInt32Proxy, NationalInstruments.Controls.Runtime" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="Int32" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="d626da836d364b47915f654e51af57c5">
-			<Attributed AttributedType="@525f90f14a64401981c42b7efc058378">
-				<AttributeValues>
-					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
-		<p.TypeReference TypeId="346fe89b8594487687c8d548c78eaa70">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Get Recent Earthquakes.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
-				<Parameters>
-					<Attributed AttributedType="@947f2bb684bc4ffd86d497c15c360f0e">
-						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
-						</AttributeValues>
-					</Attributed>
-					<Attributed AttributedType="@ea3cddccf9e94e4ab206d3badc79be88">
-						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]Earthquakes" />
-						</AttributeValues>
-					</Attributed>
-					<Attributed AttributedType="@b5a29157cce547a3b903679e0170bbf2">
-						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
-						</AttributeValues>
-					</Attributed>
-				</Parameters>
-			</Function>
-		</p.TypeReference>
-		<p.TypeReference TypeId="525f90f14a64401981c42b7efc058378">
-			<Event Id="1" Name="Value changed" GenericTypeDefinition="Void">
-				<Parameters>
-					<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="Optional" Name="event data" DataType="@629bc495d709474bb033719539c6d7c9" />
-				</Parameters>
-			</Event>
-		</p.TypeReference>
-		<p.TypeReference TypeId="947f2bb684bc4ffd86d497c15c360f0e">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="ea3cddccf9e94e4ab206d3badc79be88">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@c5b81ec0596944eaa865bbc32b72f3aa" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="b5a29157cce547a3b903679e0170bbf2">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="629bc495d709474bb033719539c6d7c9">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Ref Id" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Control Reference" DataType=":DotNet:NationalInstruments.Controls.Runtime.NumericTextBoxInt32Proxy, NationalInstruments.Controls.Runtime" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Old Value" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="New Value" DataType="Int32" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-	</DataTypeReferenceTable>
-	<IconTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.IconModel Target="WebApp::support::Get Recent Earthquakes.gviweb">
-			<MergeScript>
-				<MergeItem Path="." IsPrimary="True">
-					<Icon ListViewIconCrop="0 0 40 40">
-						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
-							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
-								<Path Data="[PathGeometry]M 39,36 C 39,37.6500015 37.6500015,39 36,39 L 4,39 C 2.3499999,39 1,37.6500015 1,36 L 1,4 C 1,2.3499999 2.3499999,1 4,1 L 36,1 C 37.6500015,1 39,2.3499999 39,4 L 39,36 Z" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-								<Path Data="[PathGeometry]M 36,1 C 37.6539993,1 39,2.34599996 39,4 L 39,36 C 39,37.6539993 37.6539993,39 36,39 L 4,39 C 2.34599996,39 1,37.6539993 1,36 L 1,4 C 1,2.34599996 2.34599996,1 4,1 L 36,1 M 36,0 L 4,0 C 1.79999995,0 0,1.79999995 0,4 L 0,36 C 0,38.2000008 1.79999995,40 4,40 L 36,40 C 38.2000008,40 40,38.2000008 40,36 L 40,4 C 40,1.79999995 38.2000008,0 36,0 L 36,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-								<Path Data="[PathGeometry]M 38,36 C 38,37.0999985 37.0999985,38 36,38 L 4,38 C 2.9000001,38 2,37.0999985 2,36 L 2,4 C 2,2.9000001 2.9000001,2 4,2 L 36,2 C 37.0999985,2 38,2.9000001 38,4 L 38,36 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-								<Path Data="[PathGeometry]M 38,36 C 38,37.0999985 37.0999985,38 36,38 L 4,38 L 29,28 L 38,28 L 38,36 Z M 30,29 L 30,37 L 37,33 L 30,29 Z" Fill="[SMSolidColorBrush]#ff62839d" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-								<Path Data="[PathGeometry]M 31,30.7240009 L 34.9840012,33 L 31,35.276001 L 31,30.7240009 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]40" />
-							</IconTemplate>
-							<Path Data="[PathGeometry]M 0.0216388889,5.65434217 L 2.39663863,7 L 4.75,5.65434217 L 2.35336113,4.30922318 L 0.0216388889,5.65434217 Z M 5.29941702,5.65434217 L 7.67441702,7 L 10.0277777,5.65434217 L 7.63061142,4.30922318 L 5.29941702,5.65434217 Z M 13.1944447,5.38585711 L 15.833333,7 L 15.833333,3.77171421 L 13.1944447,2.15757132 L 13.1944447,5.38585711 Z M 16.3611107,3.77171421 L 16.3611107,7 L 19,5.38585711 L 19,2.15757132 L 16.3611107,3.77171421 Z M 2.6499722,3.5134511 L 5.02497196,4.85910845 L 7.37780571,3.5134511 L 4.98063898,2.1683321 L 2.6499722,3.5134511 Z M 0,1.34996152 L 2.375,2.69508052 L 4.72836113,1.34996152 L 2.33066654,0.00538047636 L 0,1.34996152 Z M 5.27777767,1.34996152 L 7.65277767,2.69508052 L 10.0056114,1.34996152 L 7.60897207,0.00538047636 L 5.27777767,1.34996152 Z M 16.0534172,0 L 13.1976118,1.64427364 L 16.0534172,3.27240562 L 18.9366665,1.64427364 L 16.0534172,0 Z M 10.0277777,4.84780931 L 10.5555553,3.77171421 L 9.5,3.77171421 L 9.5,3.23366642 L 10.5555553,3.23366642 L 10.0277777,2.15757132 L 12.666667,3.50430441 L 10.0277777,4.84780931 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]7" Left="[float]10" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]19" Width="[float]19" />
-							<Path Data="[PathGeometry]M 19,0 C 22.1089993,0 22.9200001,2.76200008 23.4570007,4.59000015 C 24.0389996,6.57200003 24.3120003,7 25,7 L 26,7 L 26,10 L 25,10 C 21.9190006,10 21.1119995,7.25299978 20.5779991,5.43499994 C 19.9899998,3.43300009 19.7099991,3 19,3 C 18.2709999,3 18.0060005,3.40799999 17.4239998,5.42700005 C 16.8980007,7.24599981 16.1049995,9.99499989 13.0019999,10 L 12.9940004,10 C 9.88000011,10 9.10000038,7.25500011 8.58199978,5.43900013 C 8.00699997,3.41499996 7.73899984,3.00500011 6.98899984,3 L 6.97399998,3 C 6.30200005,3 6.02899981,3.31299996 5.42299986,5.41900015 C 4.89799976,7.24300003 4.10500002,10 1,10 L 0,10 L 0,7 L 1,7 C 1.69599998,7 1.97000003,6.57200003 2.53999996,4.59000015 C 3.06599998,2.76099992 3.86100006,0 6.97300005,0 L 7.01100016,0 C 10.1599998,0.0219999999 10.9469995,2.78699994 11.4680004,4.6170001 C 12.0600004,6.70100021 12.3269997,7 12.9940004,7 L 12.9980001,7 C 13.6960001,6.99900007 13.9709997,6.57200003 14.5410004,4.59499979 C 15.0690002,2.7650001 15.8660002,0 19,0" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Left="[float]7" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]6" Width="[float]26" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]WebApp.gcomp" Top="[float]0" Width="[float]40" />
-						</IconPanel>
-					</Icon>
-				</MergeItem>
-			</MergeScript>
-		</p.IconModel>
-	</IconTable>
 </SourceFile>
