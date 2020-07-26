@@ -15,6 +15,25 @@
     <LastTotalTime>00:00:01</LastTotalTime>
     <StartTime>2020-07-26T03:32:24.5548279Z</StartTime>
     <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy>::Web Server::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>9ded6c11-fcac-4f5e-9f79-dfdc5e6384e7</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>9ded6c11-fcac-4f5e-9f79-dfdc5e6384e7</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-07-26T03:35:14.5523110Z</StartTime>
+    <HasChild>False</HasChild>
     <IsStale>False</IsStale>
     <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
     <HintEnvoy>::Web Server::Interactive::WebApp.gcomp</HintEnvoy>
